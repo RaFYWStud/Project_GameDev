@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Roll.wav-617028ee93c7aa52037b37afc5067156.sample"
+type="AudioStreamWAV"
+uid="uid://ro7utqmgu6wx"
+path="res://.godot/imported/Roll.wav-0e5d035e98b4604c82706b51b548ec8c.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Roll.wav"
-dest_files=[ "res://.import/Roll.wav-617028ee93c7aa52037b37afc5067156.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Roll.wav"
+dest_files=["res://.godot/imported/Roll.wav-0e5d035e98b4604c82706b51b548ec8c.sample"]
 
 [params]
 

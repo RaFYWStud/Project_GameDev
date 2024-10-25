@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Enemy_Death.wav-925b2c94a34c84fdea8f8c503efaa77f.sample"
+type="AudioStreamWAV"
+uid="uid://bc4fdhghljkfg"
+path="res://.godot/imported/Enemy_Death.wav-b4abe09759b0a6f4278ec6154529dc20.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Enemy_Death.wav"
-dest_files=[ "res://.import/Enemy_Death.wav-925b2c94a34c84fdea8f8c503efaa77f.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Enemy_Death.wav"
+dest_files=["res://.godot/imported/Enemy_Death.wav-b4abe09759b0a6f4278ec6154529dc20.sample"]
 
 [params]
 

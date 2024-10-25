@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Gastral_Nice_Spin.wav-28d26fbf4820b2e1000f9454ae23916e.sample"
+type="AudioStreamWAV"
+uid="uid://ctiwovwr4vqnq"
+path="res://.godot/imported/Gastral_Nice_Spin.wav-f74ff1e59cd1016539fe0777d5ad47bb.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Gastral_Nice_Spin.wav"
-dest_files=[ "res://.import/Gastral_Nice_Spin.wav-28d26fbf4820b2e1000f9454ae23916e.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Gastral_Nice_Spin.wav"
+dest_files=["res://.godot/imported/Gastral_Nice_Spin.wav-f74ff1e59cd1016539fe0777d5ad47bb.sample"]
 
 [params]
 

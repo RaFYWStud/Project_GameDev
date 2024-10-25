@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Sirens.wav-998946c43de8b478ec90d08ebe3a90b3.sample"
+type="AudioStreamWAV"
+uid="uid://bj2fgb2y126o3"
+path="res://.godot/imported/Sirens.wav-584483c174fdf8d15e1648172ddb00a7.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Sirens.wav"
-dest_files=[ "res://.import/Sirens.wav-998946c43de8b478ec90d08ebe3a90b3.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Sirens.wav"
+dest_files=["res://.godot/imported/Sirens.wav-584483c174fdf8d15e1648172ddb00a7.sample"]
 
 [params]
 

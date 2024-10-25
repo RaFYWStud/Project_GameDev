@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Continue_Normal.png-8aa8a918a640b52c3a85d3dab14d8922.stex"
+type="CompressedTexture2D"
+uid="uid://ct8250y3bylmu"
+path="res://.godot/imported/Continue_Normal.png-18a5e6bc3d29d8bb22bc8dee8e6d4384.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/7_Gui/Buttons/Continue_Normal.png"
-dest_files=[ "res://.import/Continue_Normal.png-8aa8a918a640b52c3a85d3dab14d8922.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/7_Gui/Buttons/Continue_Normal.png"
+dest_files=["res://.godot/imported/Continue_Normal.png-18a5e6bc3d29d8bb22bc8dee8e6d4384.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

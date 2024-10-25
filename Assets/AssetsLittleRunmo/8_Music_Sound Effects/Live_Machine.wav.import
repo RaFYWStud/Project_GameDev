@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Live_Machine.wav-49cf42f27f545638b067bf3de0972967.sample"
+type="AudioStreamWAV"
+uid="uid://d0hb812ym4ee1"
+path="res://.godot/imported/Live_Machine.wav-6443945a1edb559fe1c56155778fbefd.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Live_Machine.wav"
-dest_files=[ "res://.import/Live_Machine.wav-49cf42f27f545638b067bf3de0972967.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Live_Machine.wav"
+dest_files=["res://.godot/imported/Live_Machine.wav-6443945a1edb559fe1c56155778fbefd.sample"]
 
 [params]
 

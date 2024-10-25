@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Runmo_Hit.wav-1b4ffd5532142df4f128af1e7615ac14.sample"
+type="AudioStreamWAV"
+uid="uid://2ku7citani4o"
+path="res://.godot/imported/Runmo_Hit.wav-b2835a55100b8c213293c382af1a0826.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Runmo_Hit.wav"
-dest_files=[ "res://.import/Runmo_Hit.wav-1b4ffd5532142df4f128af1e7615ac14.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Runmo_Hit.wav"
+dest_files=["res://.godot/imported/Runmo_Hit.wav-b2835a55100b8c213293c382af1a0826.sample"]
 
 [params]
 

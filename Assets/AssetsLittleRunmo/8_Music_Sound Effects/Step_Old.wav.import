@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Step_Old.wav-4f7eeb7ce70ea232bbf68bc2d8a07cc6.sample"
+type="AudioStreamWAV"
+uid="uid://wdmftmxyetw0"
+path="res://.godot/imported/Step_Old.wav-e336f365db36deeb5c00b85c2d44faa7.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Step_Old.wav"
-dest_files=[ "res://.import/Step_Old.wav-4f7eeb7ce70ea232bbf68bc2d8a07cc6.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Step_Old.wav"
+dest_files=["res://.godot/imported/Step_Old.wav-e336f365db36deeb5c00b85c2d44faa7.sample"]
 
 [params]
 

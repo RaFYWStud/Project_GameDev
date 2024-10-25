@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Gastral_Dialog_1.wav-01e1c06c6f0cf9c799dddb97185c9b16.sample"
+type="AudioStreamWAV"
+uid="uid://cvwnfqc645w58"
+path="res://.godot/imported/Gastral_Dialog_1.wav-aa3698d28d9dca0900efc84a371c1407.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Gastral_Dialog_1.wav"
-dest_files=[ "res://.import/Gastral_Dialog_1.wav-01e1c06c6f0cf9c799dddb97185c9b16.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Gastral_Dialog_1.wav"
+dest_files=["res://.godot/imported/Gastral_Dialog_1.wav-aa3698d28d9dca0900efc84a371c1407.sample"]
 
 [params]
 

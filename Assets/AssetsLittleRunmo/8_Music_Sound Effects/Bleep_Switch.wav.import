@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Bleep_Switch.wav-8cd8fa8ec5cdc00eb41cbe0bc17dca0e.sample"
+type="AudioStreamWAV"
+uid="uid://msidod1pc4mj"
+path="res://.godot/imported/Bleep_Switch.wav-8edbcb1d2b2ce77a6e5a3c9467f21727.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Bleep_Switch.wav"
-dest_files=[ "res://.import/Bleep_Switch.wav-8cd8fa8ec5cdc00eb41cbe0bc17dca0e.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Bleep_Switch.wav"
+dest_files=["res://.godot/imported/Bleep_Switch.wav-8edbcb1d2b2ce77a6e5a3c9467f21727.sample"]
 
 [params]
 

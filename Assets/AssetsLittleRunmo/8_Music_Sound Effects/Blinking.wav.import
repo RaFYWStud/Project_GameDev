@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Blinking.wav-9b76fea2eba1de540baad79ac7d0916c.sample"
+type="AudioStreamWAV"
+uid="uid://rtrxywe0krh6"
+path="res://.godot/imported/Blinking.wav-cb6b8c7157ffd49b4d32020f1bff772f.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Blinking.wav"
-dest_files=[ "res://.import/Blinking.wav-9b76fea2eba1de540baad79ac7d0916c.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Blinking.wav"
+dest_files=["res://.godot/imported/Blinking.wav-cb6b8c7157ffd49b4d32020f1bff772f.sample"]
 
 [params]
 

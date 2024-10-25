@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Marble_Eyes_Voice_1.wav-deb8cd6cfcf24fb5e67a62216149fbcc.sample"
+type="AudioStreamWAV"
+uid="uid://ooyyhj114820"
+path="res://.godot/imported/Marble_Eyes_Voice_1.wav-0690cded626a4541362c119b33d56912.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Marble_Eyes_Voice_1.wav"
-dest_files=[ "res://.import/Marble_Eyes_Voice_1.wav-deb8cd6cfcf24fb5e67a62216149fbcc.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Marble_Eyes_Voice_1.wav"
+dest_files=["res://.godot/imported/Marble_Eyes_Voice_1.wav-0690cded626a4541362c119b33d56912.sample"]
 
 [params]
 

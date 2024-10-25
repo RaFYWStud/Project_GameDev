@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Trash_Hall_2.png-d5353d5209b36d5bd503dc09632329bc.stex"
+type="CompressedTexture2D"
+uid="uid://cswsp43etpm0k"
+path="res://.godot/imported/Trash_Hall_2.png-2a50b6a612bb8a145be5c2de105fc6f5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/6_Backgrounds/Trash_Hall_2.png"
-dest_files=[ "res://.import/Trash_Hall_2.png-d5353d5209b36d5bd503dc09632329bc.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/6_Backgrounds/Trash_Hall_2.png"
+dest_files=["res://.godot/imported/Trash_Hall_2.png-2a50b6a612bb8a145be5c2de105fc6f5.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

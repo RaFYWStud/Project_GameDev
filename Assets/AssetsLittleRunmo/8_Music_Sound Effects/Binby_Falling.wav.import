@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Binby_Falling.wav-e5a66755c47411f9532b961fa554266b.sample"
+type="AudioStreamWAV"
+uid="uid://o0fn3ktju14p"
+path="res://.godot/imported/Binby_Falling.wav-efb9b877ffefc5bf01efab0c15bac052.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Binby_Falling.wav"
-dest_files=[ "res://.import/Binby_Falling.wav-e5a66755c47411f9532b961fa554266b.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Binby_Falling.wav"
+dest_files=["res://.godot/imported/Binby_Falling.wav-efb9b877ffefc5bf01efab0c15bac052.sample"]
 
 [params]
 

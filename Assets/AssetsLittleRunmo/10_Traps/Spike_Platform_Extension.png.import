@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Spike_Platform_Extension.png-63f9d9173c446961a39ed78d5b6b7da8.stex"
+type="CompressedTexture2D"
+uid="uid://c6yblxrpgrkrd"
+path="res://.godot/imported/Spike_Platform_Extension.png-5d690888e4602f06f929a2c2e28ba514.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/10_Traps/Spike_Platform_Extension.png"
-dest_files=[ "res://.import/Spike_Platform_Extension.png-63f9d9173c446961a39ed78d5b6b7da8.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/10_Traps/Spike_Platform_Extension.png"
+dest_files=["res://.godot/imported/Spike_Platform_Extension.png-5d690888e4602f06f929a2c2e28ba514.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

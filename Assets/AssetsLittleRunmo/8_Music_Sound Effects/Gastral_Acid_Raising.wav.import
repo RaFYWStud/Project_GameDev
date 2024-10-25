@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Gastral_Acid_Raising.wav-fd6cd52c918b9c24cc23bd4fc2060018.sample"
+type="AudioStreamWAV"
+uid="uid://r2mwd7snmnie"
+path="res://.godot/imported/Gastral_Acid_Raising.wav-9deb07b13f2b5495562a4354035dec51.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Gastral_Acid_Raising.wav"
-dest_files=[ "res://.import/Gastral_Acid_Raising.wav-fd6cd52c918b9c24cc23bd4fc2060018.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Gastral_Acid_Raising.wav"
+dest_files=["res://.godot/imported/Gastral_Acid_Raising.wav-9deb07b13f2b5495562a4354035dec51.sample"]
 
 [params]
 

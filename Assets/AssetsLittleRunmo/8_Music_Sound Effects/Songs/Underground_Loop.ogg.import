@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/Underground_Loop.ogg-4580b9c7f1075ad5ca9e86c51b1eec2a.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://defujtr5a8cy1"
+path="res://.godot/imported/Underground_Loop.ogg-8553175746767b32acafb92b013dea55.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Songs/Underground_Loop.ogg"
-dest_files=[ "res://.import/Underground_Loop.ogg-4580b9c7f1075ad5ca9e86c51b1eec2a.oggstr" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Songs/Underground_Loop.ogg"
+dest_files=["res://.godot/imported/Underground_Loop.ogg-8553175746767b32acafb92b013dea55.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

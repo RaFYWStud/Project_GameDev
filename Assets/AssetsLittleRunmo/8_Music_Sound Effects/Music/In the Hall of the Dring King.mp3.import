@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/In the Hall of the Dring King.mp3-51b61a093b315164ea0334c051eea18a.mp3str"
+uid="uid://smx10dgtg6na"
+path="res://.godot/imported/In the Hall of the Dring King.mp3-da33841b9c3db54cbb08ce95a6e704c5.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/In the Hall of the Dring King.mp3"
-dest_files=[ "res://.import/In the Hall of the Dring King.mp3-51b61a093b315164ea0334c051eea18a.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/In the Hall of the Dring King.mp3"
+dest_files=["res://.godot/imported/In the Hall of the Dring King.mp3-da33841b9c3db54cbb08ce95a6e704c5.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

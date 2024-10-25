@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/Stone_Clash.ogg-ee3d26fd1a0f4f6d7bbf61f61086283d.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cwlsudcxu5if"
+path="res://.godot/imported/Stone_Clash.ogg-b2108d47a5983b913e49df8f27d0801f.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Stone_Clash.ogg"
-dest_files=[ "res://.import/Stone_Clash.ogg-ee3d26fd1a0f4f6d7bbf61f61086283d.oggstr" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Stone_Clash.ogg"
+dest_files=["res://.godot/imported/Stone_Clash.ogg-b2108d47a5983b913e49df8f27d0801f.oggvorbisstr"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

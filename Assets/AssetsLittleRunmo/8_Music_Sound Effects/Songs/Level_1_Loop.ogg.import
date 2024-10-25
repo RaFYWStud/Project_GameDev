@@ -1,15 +1,19 @@
 [remap]
 
-importer="ogg_vorbis"
-type="AudioStreamOGGVorbis"
-path="res://.import/Level_1_Loop.ogg-56f41ea4d387ed7336cc4352379f226f.oggstr"
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c6jirlaj1cq70"
+path="res://.godot/imported/Level_1_Loop.ogg-8c482ceae0e87a28024d2ecf7b463970.oggvorbisstr"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Songs/Level_1_Loop.ogg"
-dest_files=[ "res://.import/Level_1_Loop.ogg-56f41ea4d387ed7336cc4352379f226f.oggstr" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Songs/Level_1_Loop.ogg"
+dest_files=["res://.godot/imported/Level_1_Loop.ogg-8c482ceae0e87a28024d2ecf7b463970.oggvorbisstr"]
 
 [params]
 
 loop=true
 loop_offset=2.4
+bpm=0
+beat_count=0
+bar_beats=4

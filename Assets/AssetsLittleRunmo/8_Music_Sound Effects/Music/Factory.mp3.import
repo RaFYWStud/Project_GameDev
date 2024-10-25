@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Factory.mp3-8bba37a2fe3f1dbd3f9e134ae7baf043.mp3str"
+uid="uid://1bq72vg01yu8"
+path="res://.godot/imported/Factory.mp3-97ca074d1ac5d007c622cefa31b39ea0.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/Factory.mp3"
-dest_files=[ "res://.import/Factory.mp3-8bba37a2fe3f1dbd3f9e134ae7baf043.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/Factory.mp3"
+dest_files=["res://.godot/imported/Factory.mp3-97ca074d1ac5d007c622cefa31b39ea0.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

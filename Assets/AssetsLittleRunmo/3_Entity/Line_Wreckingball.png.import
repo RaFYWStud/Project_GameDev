@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Line_Wreckingball.png-9bd923a41f24dfe9604600802eaf8cb7.stex"
+type="CompressedTexture2D"
+uid="uid://278pdmeyun5a"
+path="res://.godot/imported/Line_Wreckingball.png-1fb7f9f75ee1770e1fe89ad89eb2fa91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/3_Entity/Line_Wreckingball.png"
-dest_files=[ "res://.import/Line_Wreckingball.png-9bd923a41f24dfe9604600802eaf8cb7.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/3_Entity/Line_Wreckingball.png"
+dest_files=["res://.godot/imported/Line_Wreckingball.png-1fb7f9f75ee1770e1fe89ad89eb2fa91.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=1
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

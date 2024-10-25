@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Locked_Door_Open.wav-3558e8e03f198027c80ad23892303573.sample"
+type="AudioStreamWAV"
+uid="uid://biwt62hvsvi1t"
+path="res://.godot/imported/Locked_Door_Open.wav-b7dee1149aef787653b4f3071100f505.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Locked_Door_Open.wav"
-dest_files=[ "res://.import/Locked_Door_Open.wav-3558e8e03f198027c80ad23892303573.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Locked_Door_Open.wav"
+dest_files=["res://.godot/imported/Locked_Door_Open.wav-b7dee1149aef787653b4f3071100f505.sample"]
 
 [params]
 

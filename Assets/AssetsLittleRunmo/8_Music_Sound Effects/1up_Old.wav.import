@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/1up_Old.wav-6fe7c154f5317119810b8115456a3a6a.sample"
+type="AudioStreamWAV"
+uid="uid://bdthw78srygxe"
+path="res://.godot/imported/1up_Old.wav-f6a05ce8700aaa8bc887c8b43722ee44.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/1up_Old.wav"
-dest_files=[ "res://.import/1up_Old.wav-6fe7c154f5317119810b8115456a3a6a.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/1up_Old.wav"
+dest_files=["res://.godot/imported/1up_Old.wav-f6a05ce8700aaa8bc887c8b43722ee44.sample"]
 
 [params]
 

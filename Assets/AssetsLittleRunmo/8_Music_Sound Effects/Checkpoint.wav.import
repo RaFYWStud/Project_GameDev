@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Checkpoint.wav-e94e4bd10c34a61b2a9579c6faa30ccf.sample"
+type="AudioStreamWAV"
+uid="uid://b0y6rpe65kvgh"
+path="res://.godot/imported/Checkpoint.wav-fb27a19041ae05959f9718674d61e6e3.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Checkpoint.wav"
-dest_files=[ "res://.import/Checkpoint.wav-e94e4bd10c34a61b2a9579c6faa30ccf.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Checkpoint.wav"
+dest_files=["res://.godot/imported/Checkpoint.wav-fb27a19041ae05959f9718674d61e6e3.sample"]
 
 [params]
 

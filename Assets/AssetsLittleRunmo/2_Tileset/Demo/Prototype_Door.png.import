@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Prototype_Door.png-2d277ca1ca548ee6b1eda2f05d274d54.stex"
+type="CompressedTexture2D"
+uid="uid://cy5ssvk256kj4"
+path="res://.godot/imported/Prototype_Door.png-4690e46053aad05d1ae1bbb7268a1a64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/2_Tileset/Demo/Prototype_Door.png"
-dest_files=[ "res://.import/Prototype_Door.png-2d277ca1ca548ee6b1eda2f05d274d54.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/2_Tileset/Demo/Prototype_Door.png"
+dest_files=["res://.godot/imported/Prototype_Door.png-4690e46053aad05d1ae1bbb7268a1a64.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

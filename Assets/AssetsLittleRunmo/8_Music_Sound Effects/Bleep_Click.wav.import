@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Bleep_Click.wav-26213f81e085127d70e001f2ad5392e8.sample"
+type="AudioStreamWAV"
+uid="uid://2hlxyvflx2vl"
+path="res://.godot/imported/Bleep_Click.wav-619879d810adfacec364f9cb11299456.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Bleep_Click.wav"
-dest_files=[ "res://.import/Bleep_Click.wav-26213f81e085127d70e001f2ad5392e8.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Bleep_Click.wav"
+dest_files=["res://.godot/imported/Bleep_Click.wav-619879d810adfacec364f9cb11299456.sample"]
 
 [params]
 

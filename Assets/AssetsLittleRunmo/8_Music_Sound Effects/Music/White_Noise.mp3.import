@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/White_Noise.mp3-5ba28057bb44825f1c0a2434e9be111f.mp3str"
+uid="uid://dtmsi2p6h84wm"
+path="res://.godot/imported/White_Noise.mp3-5dea6b2a72c0b4a57fbe4e0330831e32.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/White_Noise.mp3"
-dest_files=[ "res://.import/White_Noise.mp3-5ba28057bb44825f1c0a2434e9be111f.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/White_Noise.mp3"
+dest_files=["res://.godot/imported/White_Noise.mp3-5dea6b2a72c0b4a57fbe4e0330831e32.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Security.mp3-c1ff00e550e532d79ee24a2b94a9fb62.mp3str"
+uid="uid://dax5n5web4jvq"
+path="res://.godot/imported/Security.mp3-6990ce965aa80f60dd5e1045244a7052.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Songs/Security.mp3"
-dest_files=[ "res://.import/Security.mp3-c1ff00e550e532d79ee24a2b94a9fb62.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Songs/Security.mp3"
+dest_files=["res://.godot/imported/Security.mp3-6990ce965aa80f60dd5e1045244a7052.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

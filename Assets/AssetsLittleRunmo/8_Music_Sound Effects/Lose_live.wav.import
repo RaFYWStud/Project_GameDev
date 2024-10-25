@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Lose_live.wav-ea6923fd97943567240160eaaa4a3df4.sample"
+type="AudioStreamWAV"
+uid="uid://d0obl2tulfa5f"
+path="res://.godot/imported/Lose_live.wav-04f712692d69f4e4bb2c148308cfd722.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Lose_live.wav"
-dest_files=[ "res://.import/Lose_live.wav-ea6923fd97943567240160eaaa4a3df4.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Lose_live.wav"
+dest_files=["res://.godot/imported/Lose_live.wav-04f712692d69f4e4bb2c148308cfd722.sample"]
 
 [params]
 

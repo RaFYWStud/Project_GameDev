@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Marble_Eyes_Scream.wav-a2057678dc43d93482f9ce99eb551a13.sample"
+type="AudioStreamWAV"
+uid="uid://btrivf4oste4i"
+path="res://.godot/imported/Marble_Eyes_Scream.wav-bc09665e28865857dad96141762764fe.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Marble_Eyes_Scream.wav"
-dest_files=[ "res://.import/Marble_Eyes_Scream.wav-a2057678dc43d93482f9ce99eb551a13.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Marble_Eyes_Scream.wav"
+dest_files=["res://.godot/imported/Marble_Eyes_Scream.wav-bc09665e28865857dad96141762764fe.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Runmo_Coin.wav-1ae8e0a8e59147c074286acde058c97e.sample"
+type="AudioStreamWAV"
+uid="uid://c35sbwjguetx4"
+path="res://.godot/imported/Runmo_Coin.wav-53555fbaadb9c0341431bb645be7c1de.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Runmo_Coin.wav"
-dest_files=[ "res://.import/Runmo_Coin.wav-1ae8e0a8e59147c074286acde058c97e.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Runmo_Coin.wav"
+dest_files=["res://.godot/imported/Runmo_Coin.wav-53555fbaadb9c0341431bb645be7c1de.sample"]
 
 [params]
 

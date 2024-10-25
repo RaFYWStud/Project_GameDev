@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Pikit_Talk_2.wav-bd2bfe3cbf21b372e9a73d5ad65c647c.sample"
+type="AudioStreamWAV"
+uid="uid://b5oxd00darvv5"
+path="res://.godot/imported/Pikit_Talk_2.wav-6464be33cbed47c43d89700d07155203.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Pikit_Talk_2.wav"
-dest_files=[ "res://.import/Pikit_Talk_2.wav-bd2bfe3cbf21b372e9a73d5ad65c647c.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Pikit_Talk_2.wav"
+dest_files=["res://.godot/imported/Pikit_Talk_2.wav-6464be33cbed47c43d89700d07155203.sample"]
 
 [params]
 

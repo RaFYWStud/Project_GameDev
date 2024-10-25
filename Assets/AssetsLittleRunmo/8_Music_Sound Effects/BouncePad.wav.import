@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/BouncePad.wav-d3f42150fe683f7388ab503a6838c04c.sample"
+type="AudioStreamWAV"
+uid="uid://purnjgh0nq42"
+path="res://.godot/imported/BouncePad.wav-16cb2c6aaa6595a6a6d06eb34e95d199.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/BouncePad.wav"
-dest_files=[ "res://.import/BouncePad.wav-d3f42150fe683f7388ab503a6838c04c.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/BouncePad.wav"
+dest_files=["res://.godot/imported/BouncePad.wav-16cb2c6aaa6595a6a6d06eb34e95d199.sample"]
 
 [params]
 

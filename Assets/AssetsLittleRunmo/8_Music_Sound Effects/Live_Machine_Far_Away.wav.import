@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Live_Machine_Far_Away.wav-ea7ef6be4270b49aafb49889eb244a3b.sample"
+type="AudioStreamWAV"
+uid="uid://b03ne7fhq8kah"
+path="res://.godot/imported/Live_Machine_Far_Away.wav-2223ad18eb3b8a01f300a9fd7977b745.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Live_Machine_Far_Away.wav"
-dest_files=[ "res://.import/Live_Machine_Far_Away.wav-ea7ef6be4270b49aafb49889eb244a3b.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Live_Machine_Far_Away.wav"
+dest_files=["res://.godot/imported/Live_Machine_Far_Away.wav-2223ad18eb3b8a01f300a9fd7977b745.sample"]
 
 [params]
 

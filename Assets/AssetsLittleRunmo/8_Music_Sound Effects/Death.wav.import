@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Death.wav-a44977a92422de7b32b5f493bfbca427.sample"
+type="AudioStreamWAV"
+uid="uid://cxu4s7h4vp4fm"
+path="res://.godot/imported/Death.wav-239b48c2688191308c6285058a08d2a7.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Death.wav"
-dest_files=[ "res://.import/Death.wav-a44977a92422de7b32b5f493bfbca427.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Death.wav"
+dest_files=["res://.godot/imported/Death.wav-239b48c2688191308c6285058a08d2a7.sample"]
 
 [params]
 

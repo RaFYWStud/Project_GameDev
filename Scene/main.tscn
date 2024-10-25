@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3 uid="uid://6on1xyqq660l"]
+
+[ext_resource type="Texture2D" uid="uid://dc8ufrqcpjsxy" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_1.png" id="1_edpga"]
+[ext_resource type="Texture2D" uid="uid://b77we747iskbr" path="res://Assets/AssetsLittleRunmo/12_Map/Back_3.png" id="3_hfd1d"]
+[ext_resource type="Texture2D" uid="uid://btwcg8mbs2l0o" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_5.png" id="3_mpylc"]
+[ext_resource type="Texture2D" uid="uid://damddmks7p0ba" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_4.png" id="4_rxpip"]
+[ext_resource type="Texture2D" uid="uid://b1m8x1ckw4efa" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_2.png" id="6_ostr8"]
+
+[node name="Main" type="Node2D"]
+position = Vector2(352, 645)
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(7, -10)
+scale = Vector2(1.02222, 2.2)
+texture = ExtResource("1_edpga")
+
+[node name="Back3" type="Sprite2D" parent="Background"]
+position = Vector2(74.3478, 13.6364)
+scale = Vector2(0.978261, 0.454545)
+texture = ExtResource("3_hfd1d")
+
+[node name="Back6" type="Sprite2D" parent="Background/Back3"]
+position = Vector2(-303, 2.99994)
+texture = ExtResource("3_hfd1d")
+
+[node name="Back3" type="Sprite2D" parent="Background/Back3"]
+position = Vector2(303, 0)
+scale = Vector2(1, 1)
+texture = ExtResource("3_hfd1d")
+
+[node name="LevelOne5" type="Sprite2D" parent="Background"]
+position = Vector2(4.8913, 27.7273)
+scale = Vector2(0.991848, 0.342477)
+texture = ExtResource("3_mpylc")
+
+[node name="LevelOne4" type="Sprite2D" parent="Background"]
+position = Vector2(-0.978264, 215.909)
+scale = Vector2(0.978261, 0.454545)
+texture = ExtResource("4_rxpip")
+
+[node name="LevelOne2" type="Sprite2D" parent="Background"]
+position = Vector2(-2.93478, -179.091)
+scale = Vector2(0.978261, 0.454545)
+texture = ExtResource("6_ostr8")

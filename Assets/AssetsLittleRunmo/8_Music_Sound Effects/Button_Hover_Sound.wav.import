@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Button_Hover_Sound.wav-e7f580283406be5a4a305746454d205c.sample"
+type="AudioStreamWAV"
+uid="uid://c30qwuw1u0roh"
+path="res://.godot/imported/Button_Hover_Sound.wav-b17a8dc381485ede41ae65a2ec1ccbf8.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Button_Hover_Sound.wav"
-dest_files=[ "res://.import/Button_Hover_Sound.wav-e7f580283406be5a4a305746454d205c.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Hover_Sound.wav"
+dest_files=["res://.godot/imported/Button_Hover_Sound.wav-b17a8dc381485ede41ae65a2ec1ccbf8.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Gastral_Spinning_Sound.wav-59a02bedc00704cf9987328abe3d7f45.sample"
+type="AudioStreamWAV"
+uid="uid://dod7537id7lmr"
+path="res://.godot/imported/Gastral_Spinning_Sound.wav-7b1a342d040a88e2b8251b4a11389c5b.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Gastral_Spinning_Sound.wav"
-dest_files=[ "res://.import/Gastral_Spinning_Sound.wav-59a02bedc00704cf9987328abe3d7f45.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Gastral_Spinning_Sound.wav"
+dest_files=["res://.godot/imported/Gastral_Spinning_Sound.wav-7b1a342d040a88e2b8251b4a11389c5b.sample"]
 
 [params]
 

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Confetti_Plop.wav-c74564b0dcff9e55e922c4aa001d7cf7.sample"
+type="AudioStreamWAV"
+uid="uid://gee2schr8s3o"
+path="res://.godot/imported/Confetti_Plop.wav-d04bbddfd033e23e18f61ef68974b12a.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Confetti_Plop.wav"
-dest_files=[ "res://.import/Confetti_Plop.wav-c74564b0dcff9e55e922c4aa001d7cf7.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Confetti_Plop.wav"
+dest_files=["res://.godot/imported/Confetti_Plop.wav-d04bbddfd033e23e18f61ef68974b12a.sample"]
 
 [params]
 

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Bass_Atmospheric_Heavy.mp3-6bb57aee86195ef375dd0923acec685e.mp3str"
+uid="uid://ch6or7krod1t1"
+path="res://.godot/imported/Bass_Atmospheric_Heavy.mp3-c697f66a84c2224b9322335ce62591aa.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/Bass_Atmospheric_Heavy.mp3"
-dest_files=[ "res://.import/Bass_Atmospheric_Heavy.mp3-6bb57aee86195ef375dd0923acec685e.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/Bass_Atmospheric_Heavy.mp3"
+dest_files=["res://.godot/imported/Bass_Atmospheric_Heavy.mp3-c697f66a84c2224b9322335ce62591aa.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Wall.wav-4ff8877bb10148a960f72388480bb762.sample"
+type="AudioStreamWAV"
+uid="uid://c8q6dflh0wtcc"
+path="res://.godot/imported/Wall.wav-3a055d099acff3b362885e6371c39248.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Wall.wav"
-dest_files=[ "res://.import/Wall.wav-4ff8877bb10148a960f72388480bb762.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Wall.wav"
+dest_files=["res://.godot/imported/Wall.wav-3a055d099acff3b362885e6371c39248.sample"]
 
 [params]
 

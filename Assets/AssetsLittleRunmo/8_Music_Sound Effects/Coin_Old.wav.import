@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Coin_Old.wav-17f7d16be4ac5e6c4df5e771e9f60239.sample"
+type="AudioStreamWAV"
+uid="uid://c4magtosm3ei6"
+path="res://.godot/imported/Coin_Old.wav-0e2a0bfff7dcf4a76e219c4dfe0883b7.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Coin_Old.wav"
-dest_files=[ "res://.import/Coin_Old.wav-17f7d16be4ac5e6c4df5e771e9f60239.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Coin_Old.wav"
+dest_files=["res://.godot/imported/Coin_Old.wav-0e2a0bfff7dcf4a76e219c4dfe0883b7.sample"]
 
 [params]
 

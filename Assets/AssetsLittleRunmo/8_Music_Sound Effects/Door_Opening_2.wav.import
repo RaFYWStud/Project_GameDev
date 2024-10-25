@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Door_Opening_2.wav-c50ba2da9aa62791c343327526902517.sample"
+type="AudioStreamWAV"
+uid="uid://c2wrrwyuwodc3"
+path="res://.godot/imported/Door_Opening_2.wav-4c177d507bc7e6abc23f39918001df6d.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Door_Opening_2.wav"
-dest_files=[ "res://.import/Door_Opening_2.wav-c50ba2da9aa62791c343327526902517.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Door_Opening_2.wav"
+dest_files=["res://.godot/imported/Door_Opening_2.wav-4c177d507bc7e6abc23f39918001df6d.sample"]
 
 [params]
 

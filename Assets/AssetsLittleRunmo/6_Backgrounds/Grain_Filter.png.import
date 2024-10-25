@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Grain_Filter.png-78e9b6853b071a0ea19b6521f4735d36.stex"
+type="CompressedTexture2D"
+uid="uid://c88vqcqtvb6la"
+path="res://.godot/imported/Grain_Filter.png-276a35715aef004f06d5e1a07ff42aab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/6_Backgrounds/Grain_Filter.png"
-dest_files=[ "res://.import/Grain_Filter.png-78e9b6853b071a0ea19b6521f4735d36.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/6_Backgrounds/Grain_Filter.png"
+dest_files=["res://.godot/imported/Grain_Filter.png-276a35715aef004f06d5e1a07ff42aab.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Marble_Appearing_Background.mp3-564fbb6c2f67c685e5c7b647c1fada6f.mp3str"
+uid="uid://dun5a2g2mof4y"
+path="res://.godot/imported/Marble_Appearing_Background.mp3-f937185532f083ec39f66600ef10a45b.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/Marble_Appearing_Background.mp3"
-dest_files=[ "res://.import/Marble_Appearing_Background.mp3-564fbb6c2f67c685e5c7b647c1fada6f.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/Marble_Appearing_Background.mp3"
+dest_files=["res://.godot/imported/Marble_Appearing_Background.mp3-f937185532f083ec39f66600ef10a45b.mp3str"]
 
 [params]
 
 loop=false
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

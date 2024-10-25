@@ -1,35 +1,34 @@
 [remap]
 
 importer="texture"
-type="StreamTexture"
-path="res://.import/Stats_Coins.png-c3d0ac1a2b63716c10082d21848fa991.stex"
+type="CompressedTexture2D"
+uid="uid://btyofxpqps0gc"
+path="res://.godot/imported/Stats_Coins.png-2e89dfed38e7b8d4b63b163fcbdfa230.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/7_Gui/Stats_Coins.png"
-dest_files=[ "res://.import/Stats_Coins.png-c3d0ac1a2b63716c10082d21848fa991.stex" ]
+source_file="res://Assets/AssetsLittleRunmo/7_Gui/Stats_Coins.png"
+dest_files=["res://.godot/imported/Stats_Coins.png-2e89dfed38e7b8d4b63b163fcbdfa230.ctex"]
 
 [params]
 
 compress/mode=0
+compress/high_quality=false
 compress/lossy_quality=0.7
-compress/hdr_mode=0
-compress/bptc_ldr=0
+compress/hdr_compression=1
 compress/normal_map=0
-flags/repeat=0
-flags/filter=false
-flags/mipmaps=false
-flags/anisotropic=false
-flags/srgb=2
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
 process/fix_alpha_border=true
 process/premult_alpha=false
-process/HDR_as_SRGB=false
-process/invert_color=false
 process/normal_map_invert_y=false
-stream=false
-size_limit=0
-detect_3d=false
-svg/scale=1.0
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

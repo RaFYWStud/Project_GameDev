@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Pikit_Outro.wav-dc65f00a0a11483ad840661bc22ca2ba.sample"
+type="AudioStreamWAV"
+uid="uid://bfx2sienl35bd"
+path="res://.godot/imported/Pikit_Outro.wav-0f25a8ea9cde78c2939a19c8194afaf6.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Pikit_Outro.wav"
-dest_files=[ "res://.import/Pikit_Outro.wav-dc65f00a0a11483ad840661bc22ca2ba.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Pikit_Outro.wav"
+dest_files=["res://.godot/imported/Pikit_Outro.wav-0f25a8ea9cde78c2939a19c8194afaf6.sample"]
 
 [params]
 

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/The Gastral Giveaway.mp3-24f79c22f0228e269e64ddcb7fae1e83.mp3str"
+uid="uid://drvl6pqe5nfm8"
+path="res://.godot/imported/The Gastral Giveaway.mp3-72586dffe82b7fca764ade8be887300c.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/The Gastral Giveaway.mp3"
-dest_files=[ "res://.import/The Gastral Giveaway.mp3-24f79c22f0228e269e64ddcb7fae1e83.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/The Gastral Giveaway.mp3"
+dest_files=["res://.godot/imported/The Gastral Giveaway.mp3-72586dffe82b7fca764ade8be887300c.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=11.498
+bpm=0
+beat_count=0
+bar_beats=4

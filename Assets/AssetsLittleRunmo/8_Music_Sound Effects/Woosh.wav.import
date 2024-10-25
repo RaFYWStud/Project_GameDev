@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Woosh.wav-541d411345fd526bb5ad584242721947.sample"
+type="AudioStreamWAV"
+uid="uid://by5ipjtllhxig"
+path="res://.godot/imported/Woosh.wav-efb2b0920b735f0bdb61d0580b2f3a19.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Woosh.wav"
-dest_files=[ "res://.import/Woosh.wav-541d411345fd526bb5ad584242721947.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Woosh.wav"
+dest_files=["res://.godot/imported/Woosh.wav-efb2b0920b735f0bdb61d0580b2f3a19.sample"]
 
 [params]
 

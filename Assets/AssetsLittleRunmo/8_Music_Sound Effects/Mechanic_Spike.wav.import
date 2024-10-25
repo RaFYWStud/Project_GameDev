@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Mechanic_Spike.wav-221da140df8bd6357328d0e59013583a.sample"
+type="AudioStreamWAV"
+uid="uid://cj40gh65rtj0t"
+path="res://.godot/imported/Mechanic_Spike.wav-33747c1a6c8a033e2f51202a37723977.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Mechanic_Spike.wav"
-dest_files=[ "res://.import/Mechanic_Spike.wav-221da140df8bd6357328d0e59013583a.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Mechanic_Spike.wav"
+dest_files=["res://.godot/imported/Mechanic_Spike.wav-33747c1a6c8a033e2f51202a37723977.sample"]
 
 [params]
 

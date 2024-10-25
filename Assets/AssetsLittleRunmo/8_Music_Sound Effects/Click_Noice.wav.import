@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Click_Noice.wav-26880156b17b2bdbe0b6184823e544bb.sample"
+type="AudioStreamWAV"
+uid="uid://cc0045yvs1uxk"
+path="res://.godot/imported/Click_Noice.wav-123a5e1bde866019a94e59f1b2fbc512.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Click_Noice.wav"
-dest_files=[ "res://.import/Click_Noice.wav-26880156b17b2bdbe0b6184823e544bb.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Click_Noice.wav"
+dest_files=["res://.godot/imported/Click_Noice.wav-123a5e1bde866019a94e59f1b2fbc512.sample"]
 
 [params]
 

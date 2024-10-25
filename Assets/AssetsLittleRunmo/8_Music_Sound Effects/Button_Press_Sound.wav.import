@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Button_Press_Sound.wav-3029495d7cb7fd359dd424b37c46c513.sample"
+type="AudioStreamWAV"
+uid="uid://cbilc72herfro"
+path="res://.godot/imported/Button_Press_Sound.wav-b435d84366bf9cf6c4e8d60228426e59.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Button_Press_Sound.wav"
-dest_files=[ "res://.import/Button_Press_Sound.wav-3029495d7cb7fd359dd424b37c46c513.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav"
+dest_files=["res://.godot/imported/Button_Press_Sound.wav-b435d84366bf9cf6c4e8d60228426e59.sample"]
 
 [params]
 

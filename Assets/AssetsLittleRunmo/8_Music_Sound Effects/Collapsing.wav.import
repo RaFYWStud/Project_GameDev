@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Collapsing.wav-0e097b99d042b98cb240ed96624b5378.sample"
+type="AudioStreamWAV"
+uid="uid://bhx4efvyr6t13"
+path="res://.godot/imported/Collapsing.wav-1cfa78b9248ae51184ea89a471c278ef.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Collapsing.wav"
-dest_files=[ "res://.import/Collapsing.wav-0e097b99d042b98cb240ed96624b5378.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Collapsing.wav"
+dest_files=["res://.godot/imported/Collapsing.wav-1cfa78b9248ae51184ea89a471c278ef.sample"]
 
 [params]
 

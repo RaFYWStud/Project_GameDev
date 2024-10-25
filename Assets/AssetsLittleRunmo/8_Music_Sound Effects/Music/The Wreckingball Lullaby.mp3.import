@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/The Wreckingball Lullaby.mp3-6b89220af319b20ad8434dfdc72d1d3e.mp3str"
+uid="uid://8cq06ksokidy"
+path="res://.godot/imported/The Wreckingball Lullaby.mp3-2e4d3bb8f8d9ac58e458ac57d1392a48.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Music/The Wreckingball Lullaby.mp3"
-dest_files=[ "res://.import/The Wreckingball Lullaby.mp3-6b89220af319b20ad8434dfdc72d1d3e.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/The Wreckingball Lullaby.mp3"
+dest_files=["res://.godot/imported/The Wreckingball Lullaby.mp3-2e4d3bb8f8d9ac58e458ac57d1392a48.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=8.934
+bpm=0
+beat_count=0
+bar_beats=4

@@ -2,14 +2,18 @@
 
 importer="mp3"
 type="AudioStreamMP3"
-path="res://.import/Chorus of the Bonekeeper.mp3-3ffca7290a9f6d365dc03c6e194d4dea.mp3str"
+uid="uid://c02pqq52eborj"
+path="res://.godot/imported/Chorus of the Bonekeeper.mp3-cf2b4944c9839e1496da469c50cd6511.mp3str"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/Songs/Chorus of the Bonekeeper.mp3"
-dest_files=[ "res://.import/Chorus of the Bonekeeper.mp3-3ffca7290a9f6d365dc03c6e194d4dea.mp3str" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Songs/Chorus of the Bonekeeper.mp3"
+dest_files=["res://.godot/imported/Chorus of the Bonekeeper.mp3-cf2b4944c9839e1496da469c50cd6511.mp3str"]
 
 [params]
 
 loop=true
 loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

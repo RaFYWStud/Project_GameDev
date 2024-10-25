@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/POOF.wav-203037849ed4d7b1e537df0d6f8a5f14.sample"
+type="AudioStreamWAV"
+uid="uid://byfai81jkbp45"
+path="res://.godot/imported/POOF.wav-d9ae162e2c855d91603fbdd34b2d1200.sample"
 
 [deps]
 
-source_file="res://Assets/8_Music_Sound Effects/POOF.wav"
-dest_files=[ "res://.import/POOF.wav-203037849ed4d7b1e537df0d6f8a5f14.sample" ]
+source_file="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/POOF.wav"
+dest_files=["res://.godot/imported/POOF.wav-d9ae162e2c855d91603fbdd34b2d1200.sample"]
 
 [params]
 
