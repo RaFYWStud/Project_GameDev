@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Rolling_Stone.ogg-8e556f9b71dbe757d1b71e2cc494c163.oggstr"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Rolling_Stone.ogg"
+dest_files=[ "res://.import/Rolling_Stone.ogg-8e556f9b71dbe757d1b71e2cc494c163.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

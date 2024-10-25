@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Wreckingball Lullaby.mp3-6b89220af319b20ad8434dfdc72d1d3e.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/The Wreckingball Lullaby.mp3"
+dest_files=[ "res://.import/The Wreckingball Lullaby.mp3-6b89220af319b20ad8434dfdc72d1d3e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=8.934

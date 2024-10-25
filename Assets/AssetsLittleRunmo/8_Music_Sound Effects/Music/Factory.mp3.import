@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Factory.mp3-8bba37a2fe3f1dbd3f9e134ae7baf043.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/Factory.mp3"
+dest_files=[ "res://.import/Factory.mp3-8bba37a2fe3f1dbd3f9e134ae7baf043.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

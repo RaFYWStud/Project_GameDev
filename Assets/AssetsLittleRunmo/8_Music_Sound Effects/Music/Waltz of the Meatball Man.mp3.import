@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Waltz of the Meatball Man.mp3-079b0c6f8c9e9616c39c1312ea443136.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/Waltz of the Meatball Man.mp3"
+dest_files=[ "res://.import/Waltz of the Meatball Man.mp3-079b0c6f8c9e9616c39c1312ea443136.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

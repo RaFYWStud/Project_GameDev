@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Security.mp3-77dfc5e3855a50689fd43c12781812fb.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/Security.mp3"
+dest_files=[ "res://.import/Security.mp3-77dfc5e3855a50689fd43c12781812fb.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

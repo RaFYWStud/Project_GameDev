@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Gastral Giveaway.mp3-24f79c22f0228e269e64ddcb7fae1e83.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/The Gastral Giveaway.mp3"
+dest_files=[ "res://.import/The Gastral Giveaway.mp3-24f79c22f0228e269e64ddcb7fae1e83.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=11.498

@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/1up_Old.wav-6fe7c154f5317119810b8115456a3a6a.sample"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/1up_Old.wav"
+dest_files=[ "res://.import/1up_Old.wav-6fe7c154f5317119810b8115456a3a6a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Chorus of the Bonekeeper.mp3-3ffca7290a9f6d365dc03c6e194d4dea.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Songs/Chorus of the Bonekeeper.mp3"
+dest_files=[ "res://.import/Chorus of the Bonekeeper.mp3-3ffca7290a9f6d365dc03c6e194d4dea.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

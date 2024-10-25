@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Little Runmo Level One Menu.mp3-2763f6d475899678676d11fabe076952.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/Little Runmo Level One Menu.mp3"
+dest_files=[ "res://.import/Little Runmo Level One Menu.mp3-2763f6d475899678676d11fabe076952.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

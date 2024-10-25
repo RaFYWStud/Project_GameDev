@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Underground_Loop.ogg-4580b9c7f1075ad5ca9e86c51b1eec2a.oggstr"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Songs/Underground_Loop.ogg"
+dest_files=[ "res://.import/Underground_Loop.ogg-4580b9c7f1075ad5ca9e86c51b1eec2a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

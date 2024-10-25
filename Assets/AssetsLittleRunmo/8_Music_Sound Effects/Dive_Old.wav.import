@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Dive_Old.wav-9b6b15949e8f99825f03c2db8c0ceaa4.sample"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Dive_Old.wav"
+dest_files=[ "res://.import/Dive_Old.wav-9b6b15949e8f99825f03c2db8c0ceaa4.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

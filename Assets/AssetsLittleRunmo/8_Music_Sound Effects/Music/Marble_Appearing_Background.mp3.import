@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Marble_Appearing_Background.mp3-564fbb6c2f67c685e5c7b647c1fada6f.mp3str"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Music/Marble_Appearing_Background.mp3"
+dest_files=[ "res://.import/Marble_Appearing_Background.mp3-564fbb6c2f67c685e5c7b647c1fada6f.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

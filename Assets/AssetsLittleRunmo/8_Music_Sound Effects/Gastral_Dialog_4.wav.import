@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Gastral_Dialog_4.wav-23a07969cf838cc0fc765fb472e84bfd.sample"
+
+[deps]
+
+source_file="res://Assets/8_Music_Sound Effects/Gastral_Dialog_4.wav"
+dest_files=[ "res://.import/Gastral_Dialog_4.wav-23a07969cf838cc0fc765fb472e84bfd.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
