@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blo7sqe4c3rg2"
-path="res://.godot/imported/Animated_Stomach_Background.png-7c5c24b7ead37e3d4d5b9c33fa6aedc3.ctex"
+path="res://.godot/imported/Animated_Stomach_Background.png-f9433375e7dc2a5d8347880488f20712.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/AssetsLittleRunmo/6_Backgrounds/Animated_Stomach_Background.png"
-dest_files=["res://.godot/imported/Animated_Stomach_Background.png-7c5c24b7ead37e3d4d5b9c33fa6aedc3.ctex"]
+source_file="res://Assets/AssetsLittleRunmo/12_Map/Animated_Stomach_Background.png"
+dest_files=["res://.godot/imported/Animated_Stomach_Background.png-f9433375e7dc2a5d8347880488f20712.ctex"]
 
 [params]
 
