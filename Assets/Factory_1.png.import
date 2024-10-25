@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://y7cjq16mu0du"
-path="res://.godot/imported/Factory_1.png-2be9031e179fb7b4107a55c6a8dc6bd5.ctex"
+path="res://.godot/imported/Factory_1.png-bc3e3b537484368a110e7961c34b6f4f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/AssetsLittleRunmo/6_Backgrounds/Factory_1.png"
-dest_files=["res://.godot/imported/Factory_1.png-2be9031e179fb7b4107a55c6a8dc6bd5.ctex"]
+source_file="res://Assets/Factory_1.png"
+dest_files=["res://.godot/imported/Factory_1.png-bc3e3b537484368a110e7961c34b6f4f.ctex"]
 
 [params]
 
