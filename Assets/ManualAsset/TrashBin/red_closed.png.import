@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://y7cjq16mu0du"
-path="res://.godot/imported/Factory_1.png-bc3e3b537484368a110e7961c34b6f4f.ctex"
+uid="uid://bqu62wb33d877"
+path="res://.godot/imported/red_closed.png-61cfc33210ceafe43c6f63eabbe7f12e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Factory_1.png"
-dest_files=["res://.godot/imported/Factory_1.png-bc3e3b537484368a110e7961c34b6f4f.ctex"]
+source_file="res://Assets/ManualAsset/TrashBin/red_closed.png"
+dest_files=["res://.godot/imported/red_closed.png-61cfc33210ceafe43c6f63eabbe7f12e.ctex"]
 
 [params]
 
