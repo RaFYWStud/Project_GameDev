@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blo7sqe4c3rg2"
-path="res://.godot/imported/Animated_Stomach_Background.png-7c5c24b7ead37e3d4d5b9c33fa6aedc3.ctex"
+uid="uid://bqu62wb33d877"
+path="res://.godot/imported/red_closed.png-61cfc33210ceafe43c6f63eabbe7f12e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/AssetsLittleRunmo/6_Backgrounds/Animated_Stomach_Background.png"
-dest_files=["res://.godot/imported/Animated_Stomach_Background.png-7c5c24b7ead37e3d4d5b9c33fa6aedc3.ctex"]
+source_file="res://Assets/ManualAsset/TrashBin/red_closed.png"
+dest_files=["res://.godot/imported/red_closed.png-61cfc33210ceafe43c6f63eabbe7f12e.ctex"]
 
 [params]
 
