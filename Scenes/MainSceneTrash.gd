@@ -41,3 +41,7 @@ func spawn_trash():
 			trash_instance.add_to_group("trash")
 			if trash_instance.get_child_count() > 0 and trash_instance.get_child(0).texture:
 				trash_instance.position = Vector2(randf_range(-250, 300), -650)
+
+
+func _on_organic_bin_area_entered(area: Area2D) -> void:
+	pass # Replace with function body.
