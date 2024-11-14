@@ -202,18 +202,52 @@ metadata/_edit_lock_ = true
 scale = Vector2(0.05, 0.05)
 script = ExtResource("14_w1oql")
 
+<<<<<<< Updated upstream
 [node name="Organic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+=======
+[node name="OrganicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
+bin_type = "OrganicBin"
+
+[node name="Organic" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
+>>>>>>> Stashed changes
 z_index = 4
 position = Vector2(-4540, 7300)
 sprite_frames = SubResource("SpriteFrames_l6dhp")
 speed_scale = 0.0
 
+<<<<<<< Updated upstream
 [node name="Anorganic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+=======
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/OrganicBin"]
+position = Vector2(-4520, 7440)
+scale = Vector2(67.5395, -144.309)
+shape = SubResource("RectangleShape2D_5xtxa")
+
+[node name="AnorganicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
+bin_type = "AnorganicBin"
+
+[node name="Anorganic" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
+>>>>>>> Stashed changes
 z_index = 4
 position = Vector2(-200, 7300)
 sprite_frames = SubResource("SpriteFrames_grltm")
 
+<<<<<<< Updated upstream
 [node name="Toxic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+=======
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/AnorganicBin"]
+position = Vector2(-200, 7450)
+scale = Vector2(147.688, 32.2)
+shape = SubResource("RectangleShape2D_n6lkd")
+
+[node name="ToxicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
+bin_type = "ToxicBin"
+
+[node name="Toxic" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
+>>>>>>> Stashed changes
 z_index = 4
 position = Vector2(4100, 7300)
 sprite_frames = SubResource("SpriteFrames_vmig3")
@@ -233,3 +267,33 @@ scale = Vector2(2.05385, 0.945455)
 texture = ExtResource("16_el8dd")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+<<<<<<< Updated upstream
+=======
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = -183.0
+offset_top = -629.0
+offset_right = 220.0
+offset_bottom = -492.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "Score : 0
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="LivesLabel" type="Label" parent="."]
+offset_left = -188.0
+offset_top = -542.0
+offset_right = 203.0
+offset_bottom = -355.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 100
+text = "Lives : 5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
+[connection signal="area_entered" from="TrashBinGroup/AnorganicBin" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_entered" from="TrashBinGroup/ToxicBin" to="." method="_on_area_2d_area_entered"]
+>>>>>>> Stashed changes

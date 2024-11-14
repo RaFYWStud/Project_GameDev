@@ -8,6 +8,7 @@ size = Vector2(102, 106.5)
 
 [node name="Organic" type="Area2D"]
 script = ExtResource("1_27tvl")
+trash_type = "Organic"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.5, 0.5)
