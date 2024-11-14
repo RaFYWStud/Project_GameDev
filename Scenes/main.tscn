@@ -51,7 +51,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_5xtxa"]
-size = Vector2(32.5736, 19.1257)
+size = Vector2(26.355, 16.3538)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_grltm"]
 animations = [{
@@ -68,7 +68,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n6lkd"]
-size = Vector2(15.7088, 90.6832)
+size = Vector2(12.865, 73.9131)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vmig3"]
 animations = [{
@@ -84,8 +84,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_eyfck"]
-size = Vector2(14440, 3280)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kepxm"]
+size = Vector2(12.0524, 77.6397)
 
 [node name="Main" type="Node2D"]
 position = Vector2(352, 645)
@@ -212,54 +212,42 @@ script = ExtResource("14_w1oql")
 [node name="OrganicBin" type="Area2D" parent="TrashBinGroup"]
 script = ExtResource("16_vlwld")
 
-[node name="Organic" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
+[node name="OrganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
 z_index = 4
 position = Vector2(-4540, 7300)
 sprite_frames = SubResource("SpriteFrames_l6dhp")
 speed_scale = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/OrganicBin"]
-position = Vector2(-4520, 7440)
+position = Vector2(-4510, 7480)
 scale = Vector2(67.5395, -144.309)
 shape = SubResource("RectangleShape2D_5xtxa")
 
 [node name="AnorganicBin" type="Area2D" parent="TrashBinGroup"]
-scale = Vector2(1, 1)
 script = ExtResource("16_vlwld")
 
-[node name="Anorganic" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
+[node name="AnorganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
 z_index = 4
 position = Vector2(-200, 7300)
-scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_grltm")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/AnorganicBin"]
-position = Vector2(-200, 7450)
+position = Vector2(-190, 7410)
 scale = Vector2(147.688, 32.2)
 shape = SubResource("RectangleShape2D_n6lkd")
 
 [node name="ToxicBin" type="Area2D" parent="TrashBinGroup"]
-scale = Vector2(1, 1)
 script = ExtResource("16_vlwld")
 
-[node name="Toxic" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
+[node name="ToxicBin" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
 z_index = 4
 position = Vector2(4100, 7300)
-scale = Vector2(1, 1)
 sprite_frames = SubResource("SpriteFrames_vmig3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/ToxicBin"]
-position = Vector2(4120, 7440)
+position = Vector2(4130, 7490)
 scale = Vector2(147.688, 32.2)
-shape = SubResource("RectangleShape2D_n6lkd")
-
-[node name="DragArea" type="Area2D" parent="TrashBinGroup"]
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/DragArea"]
-z_index = 4
-position = Vector2(99.9985, 7540)
-scale = Vector2(0.999999, 0.999999)
-shape = SubResource("RectangleShape2D_eyfck")
+shape = SubResource("RectangleShape2D_kepxm")
 
 [node name="Rope" type="Sprite2D" parent="."]
 z_index = 3
@@ -268,6 +256,28 @@ scale = Vector2(2.05385, 0.945455)
 texture = ExtResource("16_el8dd")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="LivesLabel" type="Label" parent="."]
+offset_left = -137.0
+offset_top = -600.0
+offset_right = 158.0
+offset_bottom = -363.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Lives = 5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = -91.0
+offset_top = -620.0
+offset_right = 113.0
+offset_bottom = -514.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Score : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/AnorganicBin" to="." method="_on_area_2d_area_entered"]

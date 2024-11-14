@@ -1,24 +1,16 @@
 extends Area2D
 
-@export var speed = 200  # Kecepatan jatuh sampah
-
-# Fungsi yang akan dipanggil ketika area ini bertabrakan dengan area lain
-func _on_area_entered(area):
-	# Mengecek apakah area yang memasuki adalah tong sampah (organic)
-	if area.name == "OrganicBin" or area.name == "AnorganicBin" or area.name == "ToxicBin":  # Pastikan nama area adalah "organic" (tong sampah)
-		queue_free()  # Menghapus sampah yang masuk
+@export var speed = 200  # Kecepatan jatuh, akan diubah dari main.gd
+var unique_id : String = ""
 
 func _ready():
-	# Menentukan posisi spawn di dalam lebar layar
 	z_index = 5
+	unique_id = str(self.get_instance_id())  # ID unik untuk sampah
 
-	# Tidak perlu connect() manual karena sinyal `area_entered` sudah ada di node `Area2D`
-	# Kita cukup menambahkan koneksi sinyal melalui editor atau dengan cara lain.
-
-func _process(delta):
-	# Membuat sampah jatuh ke bawah
-	position.y += speed * delta
-
-	# Menghapus sampah jika sudah melewati layar bawah
-	if position.y > get_viewport().size.y:
-		queue_free()
+# Fungsi untuk memproses ketika sampah berada di tempat sampah yang benar atau salah
+func _on_area_entered(area: Area2D):
+	if area.name == "OrganicBin" or area.name == "AnorganicBin" or area.name == "ToxicBin":
+		var bin_name = area.name
+		var main_scene = get_tree().root.get_node("Main")
+		if main_scene:
+			main_scene._on_bin_area_entered(self, bin_name)  # Kirim objek trash dan nama tempat sampah
