@@ -12,7 +12,7 @@ var rotation_speed = 180.0
 var lives = 5
 var score = 0
 
-@onready var lives_label = $LivesLabel
+@onready var lives_node = $Lives  # Akses node Lives
 @onready var score_label = $ScoreLabel
 
 func _ready():
@@ -60,16 +60,21 @@ func spawn_trash():
 
 func reduce_lives():
 	lives -= 1
-	update_ui()
+
+	# Menghapus sprite nyawa terakhir
+	if lives_node.get_child_count() > 0:
+		var last_life = lives_node.get_child(lives_node.get_child_count() -1)  # Ambil sprite terakhir
+		last_life.queue_free()  # Hapus sprite
+
 	if lives <= 0:
 		game_over()
 
 func update_ui():
-	lives_label.text = "Lives: " + str(lives)
 	score_label.text = "Score: " + str(score)
 
 func game_over():
 	print("Game Over!")  # Ganti dengan logika game over yang sesuai
+	# Tambahkan logika untuk menampilkan layar game over atau restart permainan
 
 # Fungsi yang dipanggil ketika sampah memasuki area tempat sampah
 func _on_bin_area_entered(trash: Area2D, bin_name: String):

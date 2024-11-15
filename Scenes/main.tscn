@@ -1,4 +1,4 @@
-[gd_scene load_steps=35 format=4 uid="uid://6on1xyqq660l"]
+[gd_scene load_steps=38 format=4 uid="uid://6on1xyqq660l"]
 
 [ext_resource type="Texture2D" uid="uid://dc8ufrqcpjsxy" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_1.png" id="1_edpga"]
 [ext_resource type="Script" path="res://Scenes/MainSceneTrash.gd" id="1_xjxiu"]
@@ -24,6 +24,8 @@
 [ext_resource type="Texture2D" uid="uid://bqu62wb33d877" path="res://Assets/ManualAsset/TrashBin/red_closed.png" id="18_wb4bs"]
 [ext_resource type="Texture2D" uid="uid://cv3fn86lgig4d" path="res://Assets/ManualAsset/TrashBin/red_opened.png" id="19_pksyd"]
 [ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="24_f6qqn"]
+[ext_resource type="Shader" path="res://Scenes/HeartBeat.gdshader" id="25_g73im"]
+[ext_resource type="Texture2D" uid="uid://bnylsltjvu4yq" path="res://Assets/ManualAsset/Heart.png" id="25_sa8td"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6os7s"]
 shader = ExtResource("7_u4kkr")
@@ -87,6 +89,11 @@ animations = [{
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_kepxm"]
 size = Vector2(12.0524, 77.6397)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_lb75x"]
+shader = ExtResource("25_g73im")
+shader_parameter/pulse_speed = 1.0
+shader_parameter/scale_amount = 0.2
 
 [node name="Main" type="Node2D"]
 position = Vector2(352, 645)
@@ -257,29 +264,46 @@ texture = ExtResource("16_el8dd")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
-[node name="LivesLabel" type="Label" parent="."]
-offset_left = -380.0
-offset_top = -620.0
-offset_right = -107.0
-offset_bottom = -508.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_fonts/font = ExtResource("24_f6qqn")
-theme_override_font_sizes/font_size = 50
-text = "Lives = 5"
-horizontal_alignment = 1
-vertical_alignment = 1
-
 [node name="ScoreLabel" type="Label" parent="."]
-offset_left = 135.0
-offset_top = -620.0
-offset_right = 339.0
-offset_bottom = -514.0
+offset_left = 147.0
+offset_top = -656.0
+offset_right = 352.0
+offset_bottom = -550.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("24_f6qqn")
 theme_override_font_sizes/font_size = 50
 text = "Score : 0"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Lives" type="Node2D" parent="."]
+material = SubResource("ShaderMaterial_lb75x")
+scale = Vector2(0.2, 0.2)
+
+[node name="Lives1" type="Sprite2D" parent="Lives"]
+use_parent_material = true
+position = Vector2(-1590, -3000)
+texture = ExtResource("25_sa8td")
+
+[node name="Lives2" type="Sprite2D" parent="Lives"]
+use_parent_material = true
+position = Vector2(-1285, -3000)
+texture = ExtResource("25_sa8td")
+
+[node name="Lives3" type="Sprite2D" parent="Lives"]
+use_parent_material = true
+position = Vector2(-970, -3000)
+texture = ExtResource("25_sa8td")
+
+[node name="Lives4" type="Sprite2D" parent="Lives"]
+use_parent_material = true
+position = Vector2(-660, -3000)
+texture = ExtResource("25_sa8td")
+
+[node name="Lives5" type="Sprite2D" parent="Lives"]
+use_parent_material = true
+position = Vector2(-325, -3000)
+texture = ExtResource("25_sa8td")
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
