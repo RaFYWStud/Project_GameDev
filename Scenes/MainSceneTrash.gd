@@ -91,3 +91,11 @@ func _on_bin_area_entered(trash: Area2D, bin_name: String):
 		
 	update_ui()  # Perbarui UI (skor dan nyawa)
 	trash.queue_free()
+	
+func _on_water_area_entered(trash: Area2D):
+	# Pastikan objek yang masuk adalah sampah dan berada dalam grup 'trash'
+	if trash.is_in_group("trash"):
+		print("Trash entered the water area!")
+		reduce_lives()
+	update_ui()  # Perbarui UI (skor dan nyawa)
+	trash.queue_free()  # Mengurangi nyawa
