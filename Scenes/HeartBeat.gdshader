@@ -1,6 +1,6 @@
 shader_type canvas_item;
 
-uniform float pulse_speed : hint_range(0.5, 5.0) = 3.5;  // Kecepatan detak
+uniform float pulse_speed : hint_range(0.5, 5.0) = 3;  // Kecepatan detak
 uniform float scale_amount : hint_range(0.1, 1.0) = 0.1; // Seberapa besar skalanya
 
 void fragment() {

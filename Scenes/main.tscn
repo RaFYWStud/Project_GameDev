@@ -265,6 +265,7 @@ texture = ExtResource("16_el8dd")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="ScoreLabel" type="Label" parent="."]
+z_index = 10
 offset_left = 147.0
 offset_top = -656.0
 offset_right = 352.0
@@ -277,6 +278,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Lives" type="Node2D" parent="."]
+z_index = 10
 material = SubResource("ShaderMaterial_lb75x")
 scale = Vector2(0.2, 0.2)
 
@@ -284,26 +286,31 @@ scale = Vector2(0.2, 0.2)
 use_parent_material = true
 position = Vector2(-1590, -3000)
 texture = ExtResource("25_sa8td")
+metadata/_edit_lock_ = true
 
 [node name="Lives2" type="Sprite2D" parent="Lives"]
 use_parent_material = true
 position = Vector2(-1285, -3000)
 texture = ExtResource("25_sa8td")
+metadata/_edit_lock_ = true
 
 [node name="Lives3" type="Sprite2D" parent="Lives"]
 use_parent_material = true
 position = Vector2(-970, -3000)
 texture = ExtResource("25_sa8td")
+metadata/_edit_lock_ = true
 
 [node name="Lives4" type="Sprite2D" parent="Lives"]
 use_parent_material = true
 position = Vector2(-660, -3000)
 texture = ExtResource("25_sa8td")
+metadata/_edit_lock_ = true
 
 [node name="Lives5" type="Sprite2D" parent="Lives"]
 use_parent_material = true
 position = Vector2(-325, -3000)
 texture = ExtResource("25_sa8td")
+metadata/_edit_lock_ = true
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
