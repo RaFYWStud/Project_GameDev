@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cw7vhb2d4qoov"]
+
+[ext_resource type="Script" path="res://Scenes/Trash/TrashScript.gd" id="1_5nyj4"]
+[ext_resource type="Texture2D" uid="uid://chj151olw1v7h" path="res://Assets/ManualAsset/Trash/Can.png" id="2_jbtk3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m1hbo"]
+size = Vector2(108, 58)
+
+[node name="Anorganic" type="Area2D"]
+script = ExtResource("1_5nyj4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, 0.2)
+scale = Vector2(0.242, 0.2)
+texture = ExtResource("2_jbtk3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 1.5)
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_m1hbo")

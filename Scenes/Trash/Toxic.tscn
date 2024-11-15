@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bn2ikc27f1vf1"]
+
+[ext_resource type="Script" path="res://Scenes/Trash/TrashScript.gd" id="1_nmfmb"]
+[ext_resource type="Texture2D" uid="uid://bfu0185k2ceyh" path="res://Assets/ManualAsset/Trash/Poison.png" id="2_0ntni"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b80c8"]
+size = Vector2(37, 54)
+
+[node name="Toxic" type="Area2D"]
+script = ExtResource("1_nmfmb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_0ntni")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-3.5, 1)
+shape = SubResource("RectangleShape2D_b80c8")

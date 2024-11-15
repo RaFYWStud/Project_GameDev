@@ -1,21 +1,28 @@
-[gd_scene load_steps=22 format=4 uid="uid://6on1xyqq660l"]
+[gd_scene load_steps=34 format=4 uid="uid://6on1xyqq660l"]
 
 [ext_resource type="Texture2D" uid="uid://dc8ufrqcpjsxy" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_1.png" id="1_edpga"]
+[ext_resource type="Script" path="res://Scenes/MainSceneTrash.gd" id="1_xjxiu"]
 [ext_resource type="Texture2D" uid="uid://b77we747iskbr" path="res://Assets/AssetsLittleRunmo/12_Map/Back_3.png" id="3_hfd1d"]
 [ext_resource type="Texture2D" uid="uid://btwcg8mbs2l0o" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_5.png" id="3_mpylc"]
-[ext_resource type="Shader" path="res://Scene/scroll.gdshader" id="4_e2gib"]
+[ext_resource type="Shader" path="res://Script/scroll.gdshader" id="4_e2gib"]
 [ext_resource type="Texture2D" uid="uid://damddmks7p0ba" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_4.png" id="4_rxpip"]
 [ext_resource type="Texture2D" uid="uid://b1m8x1ckw4efa" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_2.png" id="6_ostr8"]
 [ext_resource type="Texture2D" uid="uid://vypaynrylfm" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Small_Tree_1.png" id="7_6ipls"]
-[ext_resource type="Shader" path="res://Scene/CloudScroll.gdshader" id="7_u4kkr"]
+[ext_resource type="Shader" path="res://Script/CloudScroll.gdshader" id="7_u4kkr"]
 [ext_resource type="TileSet" uid="uid://dfu7axp0buhqx" path="res://Assets/AssetsLittleRunmo/GroundTiles.tres" id="8_mwq4u"]
 [ext_resource type="Texture2D" uid="uid://c7kewrbh8fhp2" path="res://Assets/AssetsLittleRunmo/12_Map/Back_5.png" id="8_qnt8l"]
 [ext_resource type="Texture2D" uid="uid://2t67p1xcri87" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Tree_1.png" id="10_wo88l"]
 [ext_resource type="Texture2D" uid="uid://dnacwj80ned" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Small_Tree_2.png" id="11_3de3p"]
 [ext_resource type="Texture2D" uid="uid://cu0vlbsaqoh6i" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Tree_2.png" id="12_lvjgq"]
 [ext_resource type="Texture2D" uid="uid://nj0u14e66jyi" path="res://Assets/ManualAsset/TrashBin/green_closed.png" id="14_cjv16"]
+[ext_resource type="Script" path="res://Script/trash_bin_group.gd" id="14_w1oql"]
 [ext_resource type="Texture2D" uid="uid://c4d4jq4nxeend" path="res://Assets/ManualAsset/TrashBin/green_opened.png" id="15_meuxd"]
 [ext_resource type="Texture2D" uid="uid://dc2qo4xy8fy6g" path="res://Assets/ManualAsset/TrashBin/Rope.png" id="16_el8dd"]
+[ext_resource type="Texture2D" uid="uid://cqr6xj0rpvkqm" path="res://Assets/ManualAsset/TrashBin/yellow_closed.png" id="16_rrtpl"]
+[ext_resource type="Script" path="res://Scenes/TrashBin/TrashBin.gd" id="16_vlwld"]
+[ext_resource type="Texture2D" uid="uid://cbdnn4llpesmw" path="res://Assets/ManualAsset/TrashBin/yellow_opened.png" id="17_2vnb8"]
+[ext_resource type="Texture2D" uid="uid://bqu62wb33d877" path="res://Assets/ManualAsset/TrashBin/red_closed.png" id="18_wb4bs"]
+[ext_resource type="Texture2D" uid="uid://cv3fn86lgig4d" path="res://Assets/ManualAsset/TrashBin/red_opened.png" id="19_pksyd"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6os7s"]
 shader = ExtResource("7_u4kkr")
@@ -43,8 +50,46 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5xtxa"]
+size = Vector2(26.355, 16.3538)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_grltm"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_rrtpl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2vnb8")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n6lkd"]
+size = Vector2(12.865, 73.9131)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vmig3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_wb4bs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_pksyd")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kepxm"]
+size = Vector2(12.0524, 77.6397)
+
 [node name="Main" type="Node2D"]
 position = Vector2(352, 645)
+script = ExtResource("1_xjxiu")
 
 [node name="Background" type="Sprite2D" parent="."]
 texture_filter = 1
@@ -160,21 +205,80 @@ tile_map_data = PackedByteArray("AADq/xwAAAABAAAAAADr/xwAAAABAAAAAADs/xwAAAABAAA
 tile_set = ExtResource("8_mwq4u")
 metadata/_edit_lock_ = true
 
-[node name="TrashBinGroup" type="CharacterBody2D" parent="."]
+[node name="TrashBinGroup" type="Node2D" parent="."]
 scale = Vector2(0.05, 0.05)
+script = ExtResource("14_w1oql")
 
-[node name="Organic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+[node name="OrganicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
+
+[node name="OrganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
 z_index = 4
-position = Vector2(-4760, 7280)
+position = Vector2(-4540, 7300)
 sprite_frames = SubResource("SpriteFrames_l6dhp")
 speed_scale = 0.0
 
-[node name="Anorganic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/OrganicBin"]
+position = Vector2(-4510, 7480)
+scale = Vector2(67.5395, -144.309)
+shape = SubResource("RectangleShape2D_5xtxa")
 
-[node name="Toxic" type="AnimatedSprite2D" parent="TrashBinGroup"]
+[node name="AnorganicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
 
-[node name="Rope" type="Sprite2D" parent="TrashBinGroup"]
+[node name="AnorganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
+z_index = 4
+position = Vector2(-200, 7300)
+sprite_frames = SubResource("SpriteFrames_grltm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/AnorganicBin"]
+position = Vector2(-190, 7410)
+scale = Vector2(147.688, 32.2)
+shape = SubResource("RectangleShape2D_n6lkd")
+
+[node name="ToxicBin" type="Area2D" parent="TrashBinGroup"]
+script = ExtResource("16_vlwld")
+
+[node name="ToxicBin" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
+z_index = 4
+position = Vector2(4100, 7300)
+sprite_frames = SubResource("SpriteFrames_vmig3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="TrashBinGroup/ToxicBin"]
+position = Vector2(4130, 7490)
+scale = Vector2(147.688, 32.2)
+shape = SubResource("RectangleShape2D_kepxm")
+
+[node name="Rope" type="Sprite2D" parent="."]
 z_index = 3
-position = Vector2(220, 7620)
-scale = Vector2(38.0449, 18.9091)
+position = Vector2(13.4999, 381)
+scale = Vector2(2.05385, 0.945455)
 texture = ExtResource("16_el8dd")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="LivesLabel" type="Label" parent="."]
+offset_left = -137.0
+offset_top = -600.0
+offset_right = 158.0
+offset_bottom = -363.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Lives = 5"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="ScoreLabel" type="Label" parent="."]
+offset_left = -91.0
+offset_top = -620.0
+offset_right = 113.0
+offset_bottom = -514.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 50
+text = "Score : 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
+[connection signal="area_entered" from="TrashBinGroup/AnorganicBin" to="." method="_on_area_2d_area_entered"]
+[connection signal="area_entered" from="TrashBinGroup/ToxicBin" to="." method="_on_area_2d_area_entered"]
