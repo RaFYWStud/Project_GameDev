@@ -1,5 +1,7 @@
 extends Area2D
 
+@onready var sprite = $AnimatedSprite2D
+
 # Fungsi ini akan dipanggil saat sampah memasuki tempat sampah
 func _ready():
 	connect("area_entered", Callable(self, "_on_area_entered"))  # Pastikan menghubungkan area_entered
@@ -12,3 +14,7 @@ func _on_area_entered(area: Area2D):
 		if main_scene:
 			# Mengirim informasi tentang sampah dan nama tempat sampah ke script utama
 			main_scene._on_bin_area_entered(area, self.name)
+			sprite.frame = 1
+			
+			await get_tree().create_timer(0.3).timeout
+			sprite.frame = 0

@@ -3,16 +3,12 @@ extends Control
 func _ready():
 	var score_label = $ScoreLabel
 	if score_label:
-		print("Cihuyy")
+		print("Skor gamedata = ", game_data.score)
+		score_label.text = "Skor: " + str(game_data.score)
 	else:
-		print("alamakk")
+		print("score label tidak ditemukan")
+	
 
-func set_score(final_score):
-	var score_label = $ScoreLabel
-	if score_label:
-		score_label.text = "Skor: " + str(final_score)
-	else:
-		print("score labek tidak ditemukan")
 
 
 func _on_retry_pressed() -> void:

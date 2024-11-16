@@ -43,13 +43,14 @@ offset_top = 242.0
 offset_right = 709.0
 offset_bottom = 511.0
 theme_override_font_sizes/font_size = 100
-text = "Score : 
+text = "Skor:
 "
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Retry" type="Button" parent="."]
 z_index = 1
+layout_mode = 0
 offset_left = 17.0
 offset_top = 499.0
 offset_right = 711.0
@@ -74,6 +75,7 @@ expand_icon = true
 
 [node name="Home" type="Button" parent="."]
 z_index = 1
+layout_mode = 0
 offset_left = 14.0
 offset_top = 704.0
 offset_right = 708.0

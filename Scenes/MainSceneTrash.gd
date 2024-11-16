@@ -64,19 +64,20 @@ func reduce_lives():
 	# Menghapus sprite nyawa terakhir
 	if lives_node.get_child_count() > 0:
 		var last_life = lives_node.get_child(lives_node.get_child_count() -1)  # Ambil sprite terakhir
-		last_life.queue_free()  # Hapus sprite
+		last_life.call_deferred("queue_free")  # Hapus sprite
 
 	if lives <= 0:
 		game_over()
 
 func update_ui():
-	score_label.text = "Score: " + str(score)
+	score_label.text = "Skor: " + str(score)
 
 func game_over():
-	var game_over_scene = load("res://Scenes/GameOver.tscn").instantiate()
-	game_over_scene.set_score(score)
-	get_tree().root.add_child(game_over_scene)
-	queue_free()
+	call_deferred("_load_game_over_scene")
+	
+func _load_game_over_scene():
+	game_data.score = score
+	get_tree().change_scene_to_file("res://Scenes/GameOver.tscn")
 	
 
 # Fungsi yang dipanggil ketika sampah memasuki area tempat sampah

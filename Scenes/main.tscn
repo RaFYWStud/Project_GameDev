@@ -219,7 +219,7 @@ script = ExtResource("14_w1oql")
 [node name="OrganicBin" type="Area2D" parent="TrashBinGroup"]
 script = ExtResource("16_vlwld")
 
-[node name="OrganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TrashBinGroup/OrganicBin"]
 z_index = 4
 position = Vector2(-4540, 7300)
 sprite_frames = SubResource("SpriteFrames_l6dhp")
@@ -233,7 +233,7 @@ shape = SubResource("RectangleShape2D_5xtxa")
 [node name="AnorganicBin" type="Area2D" parent="TrashBinGroup"]
 script = ExtResource("16_vlwld")
 
-[node name="AnorganicBin" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TrashBinGroup/AnorganicBin"]
 z_index = 4
 position = Vector2(-200, 7300)
 sprite_frames = SubResource("SpriteFrames_grltm")
@@ -246,7 +246,7 @@ shape = SubResource("RectangleShape2D_n6lkd")
 [node name="ToxicBin" type="Area2D" parent="TrashBinGroup"]
 script = ExtResource("16_vlwld")
 
-[node name="ToxicBin" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="TrashBinGroup/ToxicBin"]
 z_index = 4
 position = Vector2(4100, 7300)
 sprite_frames = SubResource("SpriteFrames_vmig3")
