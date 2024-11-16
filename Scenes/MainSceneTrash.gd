@@ -73,8 +73,11 @@ func update_ui():
 	score_label.text = "Score: " + str(score)
 
 func game_over():
-	print("Game Over!")  # Ganti dengan logika game over yang sesuai
-	# Tambahkan logika untuk menampilkan layar game over atau restart permainan
+	var game_over_scene = load("res://Scenes/GameOver.tscn").instantiate()
+	game_over_scene.set_score(score)
+	get_tree().root.add_child(game_over_scene)
+	queue_free()
+	
 
 # Fungsi yang dipanggil ketika sampah memasuki area tempat sampah
 func _on_bin_area_entered(trash: Area2D, bin_name: String):
