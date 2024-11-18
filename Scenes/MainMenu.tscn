@@ -4,12 +4,12 @@
 [ext_resource type="Texture2D" uid="uid://bbby5iphddb8e" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_1.png" id="1_q5gku"]
 [ext_resource type="Texture2D" uid="uid://dy1mj3ody2u3n" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_4.png" id="2_dfbfs"]
 [ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="2_xebin"]
-[ext_resource type="Texture2D" uid="uid://ctxtxtc1in3fx" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_2.png" id="3_d14fj"]
 [ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="3_kflbt"]
 [ext_resource type="Shader" path="res://Script/CloudScroll.gdshader" id="3_rhyjg"]
 [ext_resource type="Texture2D" uid="uid://bxbft5fwptrc" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_7.png" id="4_cluh3"]
+[ext_resource type="Texture2D" uid="uid://b1m8x1ckw4efa" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_2.png" id="8_nab6x"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_bemhw"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_3govj"]
 shader = ExtResource("3_rhyjg")
 
 [node name="MainMenu" type="Control"]
@@ -82,16 +82,24 @@ position = Vector2(40.7012, 391.083)
 scale = Vector2(0.978082, 0.472527)
 texture = ExtResource("2_dfbfs")
 
-[node name="Cloud" type="Sprite2D" parent="Background"]
-material = SubResource("ShaderMaterial_bemhw")
-position = Vector2(-10.1755, -415.95)
-scale = Vector2(0.99452, 0.422292)
-texture = ExtResource("3_d14fj")
-
 [node name="Tree" type="Sprite2D" parent="Background"]
 position = Vector2(366.312, 562.888)
 scale = Vector2(0.890411, 0.211931)
 texture = ExtResource("4_cluh3")
+
+[node name="Cloud1" type="Sprite2D" parent="Background"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_3govj")
+position = Vector2(53.4204, -568.54)
+scale = Vector2(5.9144, 0.873058)
+texture = ExtResource("8_nab6x")
+
+[node name="Cloud2" type="Sprite2D" parent="Background"]
+texture_repeat = 2
+material = SubResource("ShaderMaterial_3govj")
+position = Vector2(25.4381, -381.476)
+scale = Vector2(6.06279, 1.17512)
+texture = ExtResource("8_nab6x")
 
 [node name="Play" type="Button" parent="."]
 z_index = 1
