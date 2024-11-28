@@ -1,0 +1,105 @@
+[gd_scene load_steps=9 format=3 uid="uid://cboiljowdpmsc"]
+
+[ext_resource type="Texture2D" uid="uid://dp5nxqhrjix7p" path="res://Assets/1732822508546.png" id="1_68f5j"]
+[ext_resource type="Texture2D" uid="uid://bfu0185k2ceyh" path="res://Assets/ManualAsset/Trash/Poison.png" id="1_sgjnr"]
+[ext_resource type="Texture2D" uid="uid://dtabiph1iafq" path="res://Assets/ManualAsset/Trash/BananaSkin.png" id="2_4n6h0"]
+[ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="2_uxcjj"]
+[ext_resource type="Texture2D" uid="uid://bct84pse3axlk" path="res://Assets/ManualAsset/Trash/Apple.png" id="2_x4rq0"]
+[ext_resource type="Texture2D" uid="uid://chj151olw1v7h" path="res://Assets/ManualAsset/Trash/Can.png" id="3_us6wi"]
+[ext_resource type="Texture2D" uid="uid://beauo4ecnfg8b" path="res://Assets/ManualAsset/Trash/Bottle.png" id="4_ifej6"]
+[ext_resource type="Texture2D" uid="uid://ctikjnl3hhfdy" path="res://Assets/ManualAsset/Trash/Battery.png" id="5_pjqj1"]
+
+[node name="Almanac" type="Control"]
+texture_filter = 1
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+metadata/_edit_lock_ = true
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+z_as_relative = false
+layout_mode = 0
+offset_left = -1.0
+offset_top = 604.0
+offset_right = 717.0
+offset_bottom = 1260.0
+
+[node name="GridContainer" type="GridContainer" parent="ScrollContainer"]
+z_index = 5
+layout_mode = 2
+size_flags_horizontal = 2
+size_flags_vertical = 3
+columns = 2
+
+[node name="Apple" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("2_x4rq0")
+flat = true
+
+[node name="BananSkin" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("2_4n6h0")
+flat = true
+
+[node name="WaterBottle" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("4_ifej6")
+flat = true
+
+[node name="Can" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("3_us6wi")
+flat = true
+
+[node name="Battery" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("5_pjqj1")
+flat = true
+
+[node name="Poison" type="Button" parent="ScrollContainer/GridContainer"]
+texture_filter = 1
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+focus_mode = 0
+theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
+icon = ExtResource("1_sgjnr")
+flat = true
+
+[node name="BackGround" type="Sprite2D" parent="."]
+z_index = 1
+texture_filter = 1
+position = Vector2(366, 878)
+scale = Vector2(1.64971, 9.85477)
+texture = ExtResource("2_uxcjj")
+metadata/_edit_lock_ = true
+
+[node name="Scroll Background" type="Sprite2D" parent="."]
+z_index = 2
+position = Vector2(361.5, 913.5)
+scale = Vector2(1.02539, 7.27193)
+texture = ExtResource("1_68f5j")
+
+[node name="Scroll Background2" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(364, 279.5)
+scale = Vector2(1.02539, 6.07895)
+texture = ExtResource("1_68f5j")
