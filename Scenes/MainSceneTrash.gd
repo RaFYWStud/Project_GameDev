@@ -73,6 +73,9 @@ func update_ui():
 	score_label.text = "Skor: " + str(score)
 
 func game_over():
+	if score > game_data.high_score.high_score:
+		game_data.high_score.high_score = score
+		game_data.high_score.Save()
 	call_deferred("_load_game_over_scene")
 	
 func _load_game_over_scene():

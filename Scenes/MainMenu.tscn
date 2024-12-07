@@ -150,3 +150,28 @@ icon = ExtResource("3_kflbt")
 flat = true
 icon_alignment = 1
 expand_icon = true
+
+[node name="HighScoreLabel" type="Label" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 10.0
+offset_top = 7.0
+offset_right = 211.0
+offset_bottom = 48.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_xebin")
+theme_override_font_sizes/font_size = 20
+text = "Skor Terbaik : "
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 98.0
+offset_top = 163.0
+offset_right = 615.0
+offset_bottom = 264.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 15
+theme_override_fonts/font = ExtResource("2_xebin")
+theme_override_font_sizes/font_size = 100
+text = "Bin It Right!"

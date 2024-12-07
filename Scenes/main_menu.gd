@@ -1,6 +1,11 @@
 extends Control
 
+@onready var score = $HighScoreLabel
+
 func _ready():
+	var high_score:int = game_data.high_score.high_score
+	score.text = "Skor Tertinggi: " + str(high_score)
+	
 	# Menghubungkan tombol dengan fungsinya
 	print("Main Menu Ready!")
 	$Play.connect("pressed", Callable(self, "_on_play_button_pressed"))
