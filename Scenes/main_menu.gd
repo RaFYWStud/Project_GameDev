@@ -15,16 +15,20 @@ func _ready():
 
 func _on_play_button_pressed():
 	print("Play button clicked")
+	$Audio/ButtonPressed.play()
 	get_tree().change_scene_to_file("res://Scenes/main.tscn")  # Ganti dengan scene game Anda
 
 func _on_knowledge_button_pressed():
 	print("Knowledge button clicked")
-	get_tree().change_scene_to_file("res://Scenes/Knowledge.tscn")  # Ganti dengan scene knowledge Anda
+	$Audio/ButtonPressed.play()
+	get_tree().change_scene_to_file("res://Scenes/almanac.tscn")  # Ganti dengan scene knowledge Anda
 
 func _on_setting_button_pressed():
 	print("Setting button clicked")
+	$Audio/ButtonPressed.play()
 	get_tree().change_scene_to_file("res://Scenes/Setting.tscn")  # Ganti dengan scene setting Anda
 
 func _on_exit_button_pressed():
+	$Audio/ButtonPressed.play()
 	print("Exit button clicked")
 	get_tree().quit()

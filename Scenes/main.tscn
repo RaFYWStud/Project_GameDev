@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=4 uid="uid://6on1xyqq660l"]
+[gd_scene load_steps=45 format=4 uid="uid://6on1xyqq660l"]
 
 [ext_resource type="Texture2D" uid="uid://dc8ufrqcpjsxy" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_1.png" id="1_edpga"]
 [ext_resource type="Script" path="res://Scenes/MainSceneTrash.gd" id="1_xjxiu"]
@@ -27,8 +27,12 @@
 [ext_resource type="Shader" path="res://Scenes/HeartBeat.gdshader" id="25_g73im"]
 [ext_resource type="Texture2D" uid="uid://bnylsltjvu4yq" path="res://Assets/ManualAsset/Heart.png" id="25_sa8td"]
 [ext_resource type="Texture2D" uid="uid://dayb1bn58dqy4" path="res://Assets/ManualAsset/UI_Flat_FrameSlot03a.png" id="27_7y4js"]
+[ext_resource type="AudioStream" uid="uid://dcotgtan05jxd" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/Little Runmo Level One.mp3" id="27_jfa7l"]
 [ext_resource type="Script" path="res://Scenes/pause_play.gd" id="28_cx538"]
 [ext_resource type="Script" path="res://Scenes/retry.gd" id="29_3tbbb"]
+[ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="31_16a6c"]
+[ext_resource type="AudioStream" uid="uid://i3an7nek0mrr" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Big_Step.wav" id="32_oib6q"]
+[ext_resource type="AudioStream" uid="uid://bupo7aim7sowr" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Step.wav" id="33_b44sk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6os7s"]
 shader = ExtResource("7_u4kkr")
@@ -368,6 +372,21 @@ theme_override_font_sizes/font_size = 100
 text = "Paused"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="BGM" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("27_jfa7l")
+autoplay = true
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("31_16a6c")
+
+[node name="TrashInTrashBin" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("32_oib6q")
+
+[node name="TrashInWater" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("33_b44sk")
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]

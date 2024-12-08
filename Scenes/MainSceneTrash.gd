@@ -90,13 +90,13 @@ func _load_game_over_scene():
 # Fungsi yang dipanggil ketika sampah memasuki area tempat sampah
 func _on_bin_area_entered(trash: Area2D, bin_name: String):
 	print("Received trash: %s for bin: %s" % [trash.name, bin_name])  # Debugging line
-
+	$Audio/TrashInTrashBin.play()
 	# Mengecek apakah sampah sesuai dengan tempat sampah
 	if bin_name == "OrganicBin" and trash.name.begins_with("Organic"):
 		print("Correct bin! Adding 1 points")  # Debugging line
 		score += 1  # Tambah skor jika sesuai
 	elif bin_name == "AnorganicBin" and trash.name.begins_with("Anorganic"):
-		print("Correct bin! Adding 1 points")  # Debugging line
+		print("Correct bin! Adding 1 points")  # Debugging line"res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Woosh.wav"
 		score += 1  # Tambah skor jika sesuai
 	elif bin_name == "ToxicBin" and trash.name.begins_with("Toxic"):
 		print("Correct bin! Adding 1 points")  # Debugging line
@@ -109,6 +109,7 @@ func _on_bin_area_entered(trash: Area2D, bin_name: String):
 	trash.queue_free()
 	
 func _on_water_area_entered(trash: Area2D):
+	$Audio/TrashInWater.play()
 	# Pastikan objek yang masuk adalah sampah dan berada dalam grup 'trash'
 	if trash.is_in_group("trash"):
 		print("Trash entered the water area!")

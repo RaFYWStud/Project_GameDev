@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://weflg4a6w6f3"]
+[gd_scene load_steps=12 format=3 uid="uid://weflg4a6w6f3"]
 
 [ext_resource type="Script" path="res://Scenes/main_menu.gd" id="1_e7bh0"]
 [ext_resource type="Texture2D" uid="uid://bbby5iphddb8e" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_1.png" id="1_q5gku"]
@@ -8,6 +8,8 @@
 [ext_resource type="Shader" path="res://Script/CloudScroll.gdshader" id="3_rhyjg"]
 [ext_resource type="Texture2D" uid="uid://bxbft5fwptrc" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Main_Menu_7.png" id="4_cluh3"]
 [ext_resource type="Texture2D" uid="uid://b1m8x1ckw4efa" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_2.png" id="8_nab6x"]
+[ext_resource type="AudioStream" uid="uid://bw17vc4api4qv" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Songs/In the Hall of the Dring King.mp3" id="9_es8mn"]
+[ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="10_wqgc6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_3govj"]
 shader = ExtResource("3_rhyjg")
@@ -165,7 +167,6 @@ theme_override_font_sizes/font_size = 20
 text = "Skor Terbaik : "
 
 [node name="TitleLabel" type="Label" parent="."]
-layout_mode = 0
 offset_left = 98.0
 offset_top = 163.0
 offset_right = 615.0
@@ -175,3 +176,12 @@ theme_override_constants/outline_size = 15
 theme_override_fonts/font = ExtResource("2_xebin")
 theme_override_font_sizes/font_size = 100
 text = "Bin It Right!"
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="BGM" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("9_es8mn")
+autoplay = true
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("10_wqgc6")

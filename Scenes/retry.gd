@@ -7,6 +7,7 @@ func _ready() -> void:
 	text = "Ulang"
 
 func _on_retry_button_pressed() -> void:
+	get_node("/root/Main/Audio/ButtonPressed").play()
 	# Jika game dalam keadaan pause, nonaktifkan pause terlebih dahulu
 	get_tree().paused = false  # Matikan pause agar game bisa dimulai ulang
 

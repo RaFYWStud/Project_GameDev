@@ -1,8 +1,10 @@
-[gd_scene load_steps=4 format=3 uid="uid://dlwtunx6762gp"]
+[gd_scene load_steps=6 format=3 uid="uid://b7fkrtx014os7"]
 
 [ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="1_26esx"]
 [ext_resource type="Script" path="res://Scenes/game_over.gd" id="1_tth7w"]
 [ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="2_o4k8f"]
+[ext_resource type="AudioStream" uid="uid://cxu4s7h4vp4fm" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Death.wav" id="4_ql75j"]
+[ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="5_7ni8c"]
 
 [node name="GameOver" type="Control"]
 layout_mode = 3
@@ -99,6 +101,15 @@ icon = ExtResource("1_26esx")
 flat = true
 icon_alignment = 1
 expand_icon = true
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="GameOverSound" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("4_ql75j")
+autoplay = true
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("5_7ni8c")
 
 [connection signal="pressed" from="Retry" to="." method="_on_retry_pressed"]
 [connection signal="pressed" from="Home" to="." method="_on_home_pressed"]
