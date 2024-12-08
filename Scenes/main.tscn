@@ -318,6 +318,7 @@ texture = ExtResource("25_sa8td")
 metadata/_edit_lock_ = true
 
 [node name="Pause_Play" type="Button" parent="."]
+z_index = 16
 offset_left = 264.0
 offset_top = -170.0
 offset_right = 346.0
@@ -330,6 +331,8 @@ expand_icon = true
 script = ExtResource("28_cx538")
 
 [node name="Retry" type="Button" parent="."]
+visible = false
+z_index = 16
 offset_left = 264.0
 offset_top = -56.0
 offset_right = 346.0
@@ -339,6 +342,32 @@ icon = ExtResource("27_7y4js")
 icon_alignment = 1
 expand_icon = true
 script = ExtResource("29_3tbbb")
+
+[node name="PauseOverlay" type="ColorRect" parent="."]
+visible = false
+z_index = 15
+offset_left = -368.0
+offset_top = -663.0
+offset_right = 380.0
+offset_bottom = 649.0
+mouse_filter = 2
+color = Color(0, 0, 0, 0.584314)
+
+[node name="PauseLabel" type="Label" parent="."]
+visible = false
+z_index = 16
+texture_filter = 1
+offset_left = -188.0
+offset_top = -136.0
+offset_right = 153.0
+offset_bottom = -35.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("24_f6qqn")
+theme_override_font_sizes/font_size = 100
+text = "Paused"
+horizontal_alignment = 1
+vertical_alignment = 1
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]

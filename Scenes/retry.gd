@@ -4,6 +4,7 @@ func _ready() -> void:
 	# Pastikan tombol tetap aktif meskipun game dalam keadaan paused
 	self.process_mode = Node.PROCESS_MODE_ALWAYS  # Tombol tetap aktif saat game pause
 	self.connect("pressed", Callable(self, "_on_retry_button_pressed"))
+	text = "Ulang"
 
 func _on_retry_button_pressed() -> void:
 	# Jika game dalam keadaan pause, nonaktifkan pause terlebih dahulu
