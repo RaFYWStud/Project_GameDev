@@ -1,0 +1,139 @@
+[gd_scene load_steps=8 format=3 uid="uid://bg404qpxekuxj"]
+
+[ext_resource type="Script" path="res://Scenes/music_scroll_bar.gd" id="1_3ne5c"]
+[ext_resource type="Script" path="res://Scenes/setting.gd" id="1_a766d"]
+[ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="3_exmgl"]
+[ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="4_p7hs0"]
+[ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="5_ddojn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7qs6v"]
+bg_color = Color(0.394376, 0.185464, 0.156362, 1)
+border_width_left = 100
+border_width_top = 15
+border_width_right = 15
+border_width_bottom = 15
+border_color = Color(0.668095, 0.342398, 0.3005, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+expand_margin_left = 100.0
+expand_margin_top = 10.0
+expand_margin_right = 6.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2pvcw"]
+bg_color = Color(0.584579, 0.291048, 0.252436, 1)
+corner_radius_top_left = 7
+corner_radius_top_right = 7
+corner_radius_bottom_right = 7
+corner_radius_bottom_left = 7
+
+[node name="Setting" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+script = ExtResource("1_a766d")
+metadata/_edit_lock_ = true
+
+[node name="MusicSlider" type="HSlider" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 136.0
+offset_top = 256.0
+offset_right = 670.0
+offset_bottom = 286.0
+focus_mode = 0
+mouse_filter = 1
+theme_override_constants/center_grabber = 1
+theme_override_styles/slider = SubResource("StyleBoxFlat_7qs6v")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_2pvcw")
+max_value = 1.0
+step = 0.001
+value = 1.0
+script = ExtResource("1_3ne5c")
+bus_name = "music"
+
+[node name="Label" type="Label" parent="MusicSlider"]
+layout_mode = 0
+offset_left = -88.0
+offset_top = -2.0
+offset_right = -23.0
+offset_bottom = 32.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_p7hs0")
+theme_override_font_sizes/font_size = 25
+text = "Musik"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SfxSlider" type="HSlider" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 136.0
+offset_top = 328.0
+offset_right = 670.0
+offset_bottom = 348.0
+focus_mode = 0
+mouse_filter = 1
+theme_override_constants/center_grabber = 1
+theme_override_styles/slider = SubResource("StyleBoxFlat_7qs6v")
+theme_override_styles/grabber_area = SubResource("StyleBoxFlat_2pvcw")
+max_value = 1.0
+step = 0.001
+script = ExtResource("1_3ne5c")
+bus_name = "sfx"
+
+[node name="Label" type="Label" parent="SfxSlider"]
+layout_mode = 0
+offset_left = -87.0
+offset_right = -25.0
+offset_bottom = 34.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("4_p7hs0")
+theme_override_font_sizes/font_size = 25
+text = "SFX"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 600.0
+offset_top = 15.0
+offset_right = 717.0
+offset_bottom = 68.0
+text = "Kembali"
+
+[node name="BackGround" type="Sprite2D" parent="."]
+z_index = -1
+texture_filter = 1
+position = Vector2(351.5, 709.313)
+scale = Vector2(1.25265, 8.26297)
+texture = ExtResource("3_exmgl")
+metadata/_edit_lock_ = true
+
+[node name="SettingLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 143.0
+offset_top = 145.0
+offset_right = 576.0
+offset_bottom = 226.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("4_p7hs0")
+theme_override_font_sizes/font_size = 80
+text = "Pengaturan"
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("5_ddojn")
+bus = &"sfx"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

@@ -378,15 +378,19 @@ vertical_alignment = 1
 [node name="BGM" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("27_jfa7l")
 autoplay = true
+bus = &"music"
 
 [node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("31_16a6c")
+bus = &"sfx"
 
 [node name="TrashInTrashBin" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("32_oib6q")
+bus = &"sfx"
 
 [node name="TrashInWater" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("33_b44sk")
+bus = &"sfx"
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]

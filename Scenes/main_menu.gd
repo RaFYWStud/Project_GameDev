@@ -26,7 +26,7 @@ func _on_knowledge_button_pressed():
 func _on_setting_button_pressed():
 	print("Setting button clicked")
 	$Audio/ButtonPressed.play()
-	get_tree().change_scene_to_file("res://Scenes/Setting.tscn")  # Ganti dengan scene setting Anda
+	get_tree().change_scene_to_file("res://Scenes/setting.tscn")  # Ganti dengan scene setting Anda
 
 func _on_exit_button_pressed():
 	$Audio/ButtonPressed.play()

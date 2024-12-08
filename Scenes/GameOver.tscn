@@ -107,9 +107,11 @@ expand_icon = true
 [node name="GameOverSound" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("4_ql75j")
 autoplay = true
+bus = &"music"
 
 [node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
 stream = ExtResource("5_7ni8c")
+bus = &"sfx"
 
 [connection signal="pressed" from="Retry" to="." method="_on_retry_pressed"]
 [connection signal="pressed" from="Home" to="." method="_on_home_pressed"]
