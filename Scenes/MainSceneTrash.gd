@@ -1,5 +1,6 @@
 extends Node2D
 
+
 @export var spawn_interval = 3
 var spawn_timer = 0.0
 var trash_scenes = []
@@ -8,12 +9,15 @@ var time_elapsed = 0.0
 var spawn_increase_rate = 0.01
 var rotation_speed = 180.0
 
+
 # Variabel untuk nyawa dan skor
 var lives = 5
 var score = 0
 
 @onready var lives_node = $Lives  # Akses node Lives
 @onready var score_label = $ScoreLabel
+
+
 
 func _ready():
 	trash_scenes = [

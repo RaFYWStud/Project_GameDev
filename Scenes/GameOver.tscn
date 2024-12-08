@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://b7fkrtx014os7"]
+[gd_scene load_steps=4 format=3 uid="uid://dlwtunx6762gp"]
 
 [ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="1_26esx"]
 [ext_resource type="Script" path="res://Scenes/game_over.gd" id="1_tth7w"]
@@ -29,6 +29,7 @@ offset_right = 706.0
 offset_bottom = 358.0
 theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 25
 theme_override_fonts/font = ExtResource("2_o4k8f")
 theme_override_font_sizes/font_size = 120
 text = "Game Over!"
@@ -42,6 +43,8 @@ offset_left = 10.0
 offset_top = 242.0
 offset_right = 709.0
 offset_bottom = 511.0
+theme_override_constants/outline_size = 25
+theme_override_fonts/font = ExtResource("2_o4k8f")
 theme_override_font_sizes/font_size = 100
 text = "Skor:
 "

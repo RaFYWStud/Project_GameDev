@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=4 uid="uid://6on1xyqq660l"]
+[gd_scene load_steps=41 format=4 uid="uid://6on1xyqq660l"]
 
 [ext_resource type="Texture2D" uid="uid://dc8ufrqcpjsxy" path="res://Assets/AssetsLittleRunmo/6_Backgrounds/Level_One_1.png" id="1_edpga"]
 [ext_resource type="Script" path="res://Scenes/MainSceneTrash.gd" id="1_xjxiu"]
@@ -26,6 +26,9 @@
 [ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="24_f6qqn"]
 [ext_resource type="Shader" path="res://Scenes/HeartBeat.gdshader" id="25_g73im"]
 [ext_resource type="Texture2D" uid="uid://bnylsltjvu4yq" path="res://Assets/ManualAsset/Heart.png" id="25_sa8td"]
+[ext_resource type="Texture2D" uid="uid://dayb1bn58dqy4" path="res://Assets/ManualAsset/UI_Flat_FrameSlot03a.png" id="27_7y4js"]
+[ext_resource type="Script" path="res://Scenes/pause_play.gd" id="28_cx538"]
+[ext_resource type="Script" path="res://Scenes/retry.gd" id="29_3tbbb"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_6os7s"]
 shader = ExtResource("7_u4kkr")
@@ -313,6 +316,29 @@ use_parent_material = true
 position = Vector2(-325, -3000)
 texture = ExtResource("25_sa8td")
 metadata/_edit_lock_ = true
+
+[node name="Pause_Play" type="Button" parent="."]
+offset_left = 264.0
+offset_top = -170.0
+offset_right = 346.0
+offset_bottom = -86.0
+theme_type_variation = &"FlatButton"
+toggle_mode = true
+icon = ExtResource("27_7y4js")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("28_cx538")
+
+[node name="Retry" type="Button" parent="."]
+offset_left = 264.0
+offset_top = -56.0
+offset_right = 346.0
+offset_bottom = 28.0
+theme_type_variation = &"FlatButton"
+icon = ExtResource("27_7y4js")
+icon_alignment = 1
+expand_icon = true
+script = ExtResource("29_3tbbb")
 
 [connection signal="area_entered" from="WaterArea" to="." method="_on_water_area_entered"]
 [connection signal="area_entered" from="TrashBinGroup/OrganicBin" to="." method="_on_organic_bin_area_entered"]
