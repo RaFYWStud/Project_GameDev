@@ -1,8 +1,10 @@
-[gd_scene load_steps=9 format=3 uid="uid://cboiljowdpmsc"]
+[gd_scene load_steps=11 format=3 uid="uid://cboiljowdpmsc"]
 
 [ext_resource type="Texture2D" uid="uid://dp5nxqhrjix7p" path="res://Assets/1732822508546.png" id="1_68f5j"]
+[ext_resource type="Script" path="res://Scenes/almanac.gd" id="1_iu5vl"]
 [ext_resource type="Texture2D" uid="uid://bfu0185k2ceyh" path="res://Assets/ManualAsset/Trash/Poison.png" id="1_sgjnr"]
 [ext_resource type="Texture2D" uid="uid://dtabiph1iafq" path="res://Assets/ManualAsset/Trash/BananaSkin.png" id="2_4n6h0"]
+[ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="2_pa56i"]
 [ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="2_uxcjj"]
 [ext_resource type="Texture2D" uid="uid://bct84pse3axlk" path="res://Assets/ManualAsset/Trash/Apple.png" id="2_x4rq0"]
 [ext_resource type="Texture2D" uid="uid://chj151olw1v7h" path="res://Assets/ManualAsset/Trash/Can.png" id="3_us6wi"]
@@ -17,6 +19,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_iu5vl")
 metadata/_edit_lock_ = true
 
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
@@ -42,6 +45,15 @@ theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("2_x4rq0")
 flat = true
 
+[node name="AppleLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Apel
+Jenis : Organik"
+
 [node name="BananSkin" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
 layout_mode = 2
@@ -49,6 +61,15 @@ focus_mode = 0
 theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("2_4n6h0")
 flat = true
+
+[node name="BananSkinLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Kulit Pisang
+Jenis : Organik"
 
 [node name="WaterBottle" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
@@ -58,6 +79,15 @@ theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("4_ifej6")
 flat = true
 
+[node name="WaterBottleLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Botol Plastik
+Jenis : Anorganik"
+
 [node name="Can" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
 layout_mode = 2
@@ -66,6 +96,15 @@ theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("3_us6wi")
 flat = true
 
+[node name="CanLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Kaleng Soda
+Jenis : Anorganik"
+
 [node name="Battery" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
 layout_mode = 2
@@ -73,6 +112,15 @@ focus_mode = 0
 theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("5_pjqj1")
 flat = true
+
+[node name="BatteryLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Baterai
+Jenis : B3 "
 
 [node name="Poison" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
@@ -83,6 +131,15 @@ focus_mode = 0
 theme_override_colors/icon_pressed_color = Color(0.192157, 0.45098, 0.823529, 1)
 icon = ExtResource("1_sgjnr")
 flat = true
+
+[node name="PoisonLabel" type="Label" parent="ScrollContainer/GridContainer"]
+layout_mode = 2
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Nama : Racun
+Jenis : B3"
 
 [node name="BackGround" type="Sprite2D" parent="."]
 z_index = 1
@@ -103,3 +160,14 @@ z_index = 1
 position = Vector2(364, 279.5)
 scale = Vector2(1.02539, 6.07895)
 texture = ExtResource("1_68f5j")
+
+[node name="BackButton" type="Button" parent="."]
+z_index = 10
+layout_mode = 0
+offset_left = 630.0
+offset_top = 4.0
+offset_right = 717.0
+offset_bottom = 53.0
+text = "Kembali"
+
+[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
