@@ -22,6 +22,120 @@ grow_vertical = 2
 script = ExtResource("1_iu5vl")
 metadata/_edit_lock_ = true
 
+[node name="FunFact" type="CanvasLayer" parent="."]
+
+[node name="applefunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 20.0
+offset_top = 21.0
+offset_right = 696.0
+offset_bottom = 543.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "biji apel mengandung zat beracun 
+bernama amygdalin, yang saat dicerna
+dapat menghasilkan sianida, racun mematikan. 
+Meskipun jumlahnya kecil dan biasanya 
+tidak berbahaya jika hanya tertelan 
+beberapa biji, mengonsumsi biji apel 
+dalam jumlah besar dapat menyebabkan 
+keracunan serius."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="bananafunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 7.0
+offset_top = 28.0
+offset_right = 711.0
+offset_bottom = 556.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Kulit pisang bisa digunakan untuk 
+membersihkan dan mengkilapkan
+barang-barang, terutama perabotan 
+kulit atau sepatu. Kandungan minyak
+alami pada kulit pisang bisa memberikan 
+efek mengkilap pada permukaan kulit."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="waterbottlefunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 14.0
+offset_top = 56.0
+offset_right = 709.0
+offset_bottom = 556.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Botol air modern pertama kali 
+dibuat pada tahun 1940-an.
+Sebelumnya, orang sering 
+membawa air menggunakan 
+wadah lain seperti kulit atau kaleng.
+Botol plastik seperti yang kita
+ kenal sekarang menjadi populer pada
+ tahun 1960-an."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="canfunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 15.0
+offset_top = 12.0
+offset_right = 707.0
+offset_bottom = 572.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Kaleng ditemukan pada awal abad ke-19 
+untuk menyimpan makanan bagi tentara 
+selama perang. Pada tahun 1810, Peter Durand 
+mematenkan ide menyimpan makanan 
+dalam wadah logam untuk membuatnya 
+tahan lama."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="batteryfunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 8.0
+offset_top = 22.0
+offset_right = 728.0
+offset_bottom = 547.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Baterai bekas yang dibuang sembarangan 
+mengandung bahan kimia beracun seperti 
+timbal, merkuri, dan kadmium, yang dapat 
+meresap ke dalam tanah dan mencemari 
+air tanah. Ini berbahaya bagi ekosistem
+ dan kesehatan manusia."
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="poisonfunfact" type="Label" parent="FunFact"]
+visible = false
+offset_left = 11.0
+offset_top = 44.0
+offset_right = 714.0
+offset_bottom = 536.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Bahan kimia beracun seperti merkuri dan DDT 
+dapat mencemari lingkungan dan masuk ke 
+rantai makanan. Racun ini terkumpul 
+di makhluk hidup (bioakumulasi) dan menjadi 
+semakin berbahayadi tingkat predator puncak, 
+termasuk manusia."
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="ScrollContainer" type="ScrollContainer" parent="."]
 z_as_relative = false
 layout_mode = 0
@@ -29,6 +143,7 @@ offset_left = -1.0
 offset_top = 604.0
 offset_right = 717.0
 offset_bottom = 1260.0
+metadata/_edit_lock_ = true
 
 [node name="GridContainer" type="GridContainer" parent="ScrollContainer"]
 z_index = 5
@@ -36,6 +151,7 @@ layout_mode = 2
 size_flags_horizontal = 2
 size_flags_vertical = 3
 columns = 2
+metadata/_edit_lock_ = true
 
 [node name="Apple" type="Button" parent="ScrollContainer/GridContainer"]
 texture_filter = 1
@@ -142,6 +258,7 @@ text = "Nama : Racun
 Jenis : B3"
 
 [node name="BackGround" type="Sprite2D" parent="."]
+visible = false
 z_index = 1
 texture_filter = 1
 position = Vector2(366, 878)
@@ -154,12 +271,14 @@ z_index = 2
 position = Vector2(361.5, 913.5)
 scale = Vector2(1.02539, 7.27193)
 texture = ExtResource("1_68f5j")
+metadata/_edit_lock_ = true
 
 [node name="Scroll Background2" type="Sprite2D" parent="."]
 z_index = 1
 position = Vector2(364, 279.5)
 scale = Vector2(1.02539, 6.07895)
 texture = ExtResource("1_68f5j")
+metadata/_edit_lock_ = true
 
 [node name="BackButton" type="Button" parent="."]
 z_index = 10
@@ -169,5 +288,12 @@ offset_top = 4.0
 offset_right = 717.0
 offset_bottom = 53.0
 text = "Kembali"
+metadata/_edit_lock_ = true
 
+[connection signal="pressed" from="ScrollContainer/GridContainer/Apple" to="." method="_on_Apple_pressed"]
+[connection signal="pressed" from="ScrollContainer/GridContainer/BananSkin" to="." method="_on_Banan_pressed"]
+[connection signal="pressed" from="ScrollContainer/GridContainer/WaterBottle" to="." method="_on_WaterBottle_pressed"]
+[connection signal="pressed" from="ScrollContainer/GridContainer/Can" to="." method="_on_Can_pressed"]
+[connection signal="pressed" from="ScrollContainer/GridContainer/Battery" to="." method="_on_Battery_pressed"]
+[connection signal="pressed" from="ScrollContainer/GridContainer/Poison" to="." method="_on_Poison_pressed"]
 [connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]

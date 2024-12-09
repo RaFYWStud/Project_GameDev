@@ -170,11 +170,11 @@ text = "Skor Terbaik : "
 [node name="TitleLabel" type="Label" parent="."]
 layout_mode = 0
 offset_left = 98.0
-offset_top = 163.0
+offset_top = 110.0
 offset_right = 615.0
-offset_bottom = 264.0
+offset_bottom = 211.0
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/outline_size = 15
+theme_override_constants/outline_size = 20
 theme_override_fonts/font = ExtResource("2_xebin")
 theme_override_font_sizes/font_size = 100
 text = "Bin It Right!"
