@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://bg404qpxekuxj"]
+[gd_scene load_steps=9 format=3 uid="uid://bg404qpxekuxj"]
 
 [ext_resource type="Script" path="res://Scenes/music_scroll_bar.gd" id="1_3ne5c"]
 [ext_resource type="Script" path="res://Scenes/setting.gd" id="1_a766d"]
 [ext_resource type="Texture2D" uid="uid://bp0d5r7lbigjj" path="res://Assets/ManualAsset/Buttons/ButtonsBackground.png" id="3_exmgl"]
+[ext_resource type="Texture2D" uid="uid://dayb1bn58dqy4" path="res://Assets/ManualAsset/UI_Flat_FrameSlot03a.png" id="4_onwpg"]
 [ext_resource type="FontFile" uid="uid://c6iy4fydtc4b0" path="res://Assets/ManualAsset/Fonts/easvhs.ttf" id="4_p7hs0"]
 [ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="5_ddojn"]
 
@@ -103,12 +104,22 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="BackButton" type="Button" parent="."]
+texture_filter = 1
 layout_mode = 0
-offset_left = 600.0
-offset_top = 15.0
-offset_right = 717.0
-offset_bottom = 68.0
-text = "Kembali"
+offset_left = 663.0
+offset_top = -4.0
+offset_right = 726.0
+offset_bottom = 53.0
+focus_mode = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("4_p7hs0")
+theme_override_font_sizes/font_size = 30
+text = "X"
+icon = ExtResource("4_onwpg")
+flat = true
+icon_alignment = 1
+expand_icon = true
 
 [node name="BackGround" type="Sprite2D" parent="."]
 z_index = -1

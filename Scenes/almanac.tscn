@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://cboiljowdpmsc"]
+[gd_scene load_steps=14 format=3 uid="uid://cboiljowdpmsc"]
 
 [ext_resource type="Texture2D" uid="uid://dp5nxqhrjix7p" path="res://Assets/1732822508546.png" id="1_68f5j"]
 [ext_resource type="Script" path="res://Scenes/almanac.gd" id="1_iu5vl"]
@@ -10,6 +10,9 @@
 [ext_resource type="Texture2D" uid="uid://chj151olw1v7h" path="res://Assets/ManualAsset/Trash/Can.png" id="3_us6wi"]
 [ext_resource type="Texture2D" uid="uid://beauo4ecnfg8b" path="res://Assets/ManualAsset/Trash/Bottle.png" id="4_ifej6"]
 [ext_resource type="Texture2D" uid="uid://ctikjnl3hhfdy" path="res://Assets/ManualAsset/Trash/Battery.png" id="5_pjqj1"]
+[ext_resource type="AudioStream" uid="uid://drvl6pqe5nfm8" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Music/The Gastral Giveaway.mp3" id="11_vkkcx"]
+[ext_resource type="AudioStream" uid="uid://cbilc72herfro" path="res://Assets/AssetsLittleRunmo/8_Music_Sound Effects/Button_Press_Sound.wav" id="12_cl2ep"]
+[ext_resource type="Texture2D" uid="uid://dayb1bn58dqy4" path="res://Assets/ManualAsset/UI_Flat_FrameSlot03a.png" id="13_s2yd2"]
 
 [node name="Almanac" type="Control"]
 texture_filter = 1
@@ -275,20 +278,69 @@ metadata/_edit_lock_ = true
 
 [node name="Scroll Background2" type="Sprite2D" parent="."]
 z_index = 1
-position = Vector2(364, 279.5)
-scale = Vector2(1.02539, 6.07895)
+position = Vector2(364.25, 279.5)
+scale = Vector2(1.02468, 6.07895)
 texture = ExtResource("1_68f5j")
-metadata/_edit_lock_ = true
 
-[node name="BackButton" type="Button" parent="."]
-z_index = 10
+[node name="KnowledgeLabel" type="Label" parent="."]
+z_index = 5
 layout_mode = 0
-offset_left = 630.0
-offset_top = 4.0
-offset_right = 717.0
-offset_bottom = 53.0
-text = "Kembali"
-metadata/_edit_lock_ = true
+offset_left = 20.0
+offset_top = 21.0
+offset_right = 696.0
+offset_bottom = 543.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "Tekan gambar sampah untuk menampilkan
+fun fact dari sampah!!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="FunFactLabel" type="Label" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 23.0
+offset_top = -185.0
+offset_right = 699.0
+offset_bottom = 337.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 50
+text = "FUN FACT!
+"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Audio" type="Node" parent="."]
+
+[node name="BGM" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("11_vkkcx")
+autoplay = true
+bus = &"music"
+
+[node name="ButtonPressed" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("12_cl2ep")
+bus = &"sfx"
+
+[node name="BackButton2" type="Button" parent="."]
+z_index = 5
+texture_filter = 1
+layout_mode = 0
+offset_left = 664.0
+offset_top = -5.0
+offset_right = 727.0
+offset_bottom = 52.0
+focus_mode = 0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 3
+theme_override_fonts/font = ExtResource("2_pa56i")
+theme_override_font_sizes/font_size = 30
+text = "X"
+icon = ExtResource("13_s2yd2")
+flat = true
+icon_alignment = 1
+expand_icon = true
 
 [connection signal="pressed" from="ScrollContainer/GridContainer/Apple" to="." method="_on_Apple_pressed"]
 [connection signal="pressed" from="ScrollContainer/GridContainer/BananSkin" to="." method="_on_Banan_pressed"]
@@ -296,4 +348,4 @@ metadata/_edit_lock_ = true
 [connection signal="pressed" from="ScrollContainer/GridContainer/Can" to="." method="_on_Can_pressed"]
 [connection signal="pressed" from="ScrollContainer/GridContainer/Battery" to="." method="_on_Battery_pressed"]
 [connection signal="pressed" from="ScrollContainer/GridContainer/Poison" to="." method="_on_Poison_pressed"]
-[connection signal="pressed" from="BackButton" to="." method="_on_back_button_pressed"]
+[connection signal="pressed" from="BackButton2" to="." method="_on_back_button_2_pressed"]

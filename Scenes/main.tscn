@@ -139,8 +139,8 @@ metadata/_edit_lock_ = true
 [node name="Cloud1" type="Sprite2D" parent="Background"]
 texture_repeat = 2
 material = SubResource("ShaderMaterial_6os7s")
-position = Vector2(8.39233e-05, -130)
-scale = Vector2(0.978261, 0.454545)
+position = Vector2(-3.42393, -130)
+scale = Vector2(1.04756, 0.454545)
 texture = ExtResource("6_ostr8")
 metadata/_edit_lock_ = true
 
@@ -196,8 +196,9 @@ z_index = 2
 texture_filter = 1
 texture_repeat = 2
 material = SubResource("ShaderMaterial_7wl36")
+position = Vector2(-4.5004, 0)
+scale = Vector2(1.0125, 1)
 texture = ExtResource("4_rxpip")
-metadata/_edit_lock_ = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="WaterArea"]
 light_mask = 512
@@ -211,6 +212,7 @@ metadata/_edit_lock_ = true
 z_index = 1
 tile_set = ExtResource("8_mwq4u")
 format = 2
+layer_0/tile_data = PackedInt32Array(1900521, 0, 0, 1966057, 0, 1, 2031593, 0, 1, 2097129, 0, 1, 2162665, 0, 1, 2228201, 0, 1, 2293737, 0, 1, 2359273, 0, 1, 2424809, 0, 1, 2490345, 0, 1, 2555881, 0, 1, 2621417, 0, 1)
 metadata/_edit_lock_ = true
 
 [node name="Layer1" type="TileMapLayer" parent="TileMap"]
@@ -220,6 +222,7 @@ tile_set = ExtResource("8_mwq4u")
 metadata/_edit_lock_ = true
 
 [node name="TrashBinGroup" type="Node2D" parent="."]
+position = Vector2(0, 5)
 scale = Vector2(0.05, 0.05)
 script = ExtResource("14_w1oql")
 
@@ -323,10 +326,11 @@ metadata/_edit_lock_ = true
 
 [node name="Pause_Play" type="Button" parent="."]
 z_index = 16
-offset_left = 264.0
-offset_top = -170.0
-offset_right = 346.0
-offset_bottom = -86.0
+offset_left = 278.0
+offset_top = -164.0
+offset_right = 360.0
+offset_bottom = -80.0
+focus_mode = 0
 theme_type_variation = &"FlatButton"
 toggle_mode = true
 icon = ExtResource("27_7y4js")
@@ -337,10 +341,11 @@ script = ExtResource("28_cx538")
 [node name="Retry" type="Button" parent="."]
 visible = false
 z_index = 16
-offset_left = 264.0
-offset_top = -56.0
-offset_right = 346.0
-offset_bottom = 28.0
+offset_left = 278.0
+offset_top = -62.0
+offset_right = 360.0
+offset_bottom = 22.0
+focus_mode = 0
 theme_type_variation = &"FlatButton"
 icon = ExtResource("27_7y4js")
 icon_alignment = 1
